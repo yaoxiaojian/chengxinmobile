@@ -1,5 +1,5 @@
 <template lang="html">
-    <Panel :title="鉴定二手车" :class="$style.panel">
+    <Panel title="鉴定二手车" :class="$style.panel">
         <img src="//chengxinmobile.saic-gm.com/img/kv/active5.jpg" alt="">
     </Panel>
 </template>

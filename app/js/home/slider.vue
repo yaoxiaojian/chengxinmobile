@@ -31,6 +31,7 @@ export default {
 <style lang="scss" module>
 .slider{
   margin-top: 100px;
+  overflow: hidden;
   img{
     width: 100%;
     display:block;
