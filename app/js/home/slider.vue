@@ -1,7 +1,5 @@
 <template lang="html">
-    <div class="">
-        <Slider :items="items" :cname="$style.slider"/>
-    </div>
+    <Slider :items="items" :cname="$style.slider"/>
 </template>
 
 <script>
