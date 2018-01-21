@@ -6,15 +6,19 @@
   color: $color;
   background: $bgcolor;
   display: inline-block;
-  line-height: 1;
+  line-height:90px;
   text-align: center;
+  width: 500px;
+  height: 90px;
+  border:$bgcolor;
+  box-sizing: border-box;
 }
 
 @mixin list($direction:colnum) {
   @include flex($direction);
 }
 
-@mixin panel($fontsize:28px,$color:#fff,$bgcolor:#e5e5e5,$padding:0,$margin:0,$linewidth:390px) {
+@mixin panel($fontsize:28px,$color:#fff,$bgcolor:#e5e5e5,$padding:0,$margin:0,$linewidth:320px,$iconcolor:#fff) {
   background: $bgcolor;
   padding: $padding;
   margin: $margin;
@@ -22,11 +26,13 @@
     font-size: $fontsize;
     color: $color;
     position: relative;
+    padding-left: 30px;
+    margin-left: 70px;
     &:before{
       content:'';
       width:10px;
       height:30px;
-      background: #fff;
+      background: $iconcolor;
       position: absolute;
       top: 0;
       left: 0;
@@ -34,10 +40,11 @@
     &:after{
       content:'';
       width:$linewidth;
-      background: #fff;
+      background: $iconcolor;
       position: absolute;
       top: 14px;
-      right:0;
+      right:70px;
+      height: 1px;
     }
   }
 }

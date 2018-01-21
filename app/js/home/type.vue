@@ -28,8 +28,9 @@ export default {
 </script>
 
 <style lang="scss" module>
-@import '../../css/layout.scss';
+@import '../../css/element.scss';
 .panel{
+  @include panel;
   margin: 36px auto;
   >h4{
     display: none;

@@ -29,6 +29,7 @@ export default {
 </script>
 
 <style lang="scss" module>
+@import '../../css/element.scss';
 .slider{
   margin-top: 100px;
   overflow: hidden;

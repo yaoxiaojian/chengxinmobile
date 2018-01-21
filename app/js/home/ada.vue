@@ -35,8 +35,9 @@ export default {
 </script>
 
 <style lang="scss" module>
-@import '../../css/layout.scss';
+@import '../../css/element.scss';
 .panel{
+  @include panel;
   >h4{
       display: none;
   }

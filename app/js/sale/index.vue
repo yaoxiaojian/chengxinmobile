@@ -1,11 +1,10 @@
 <template lang="html">
     <div>
         <Heador/>
-        <slider/>
-        <ada/>
-        <Type/>
-        <adb/>
-        <adc/>
+        <cararea/>
+        <cartype/>
+        <cardate/>
+        <information/>
         <footor/>
         <Navbar/>
     </div>
@@ -15,26 +14,23 @@
 import Heador from "../public/header.vue"
 import footor from "../public/footer.vue"
 import Navbar from "../public/navbar.vue"
-import Slider from "./slider.vue"
-import ada from "./ada.vue"
-import Type from "./type.vue"
-import adb from "./adb.vue"
-import adc from "./adc.vue"
-
+import cararea from "../public/cararea.vue"
+import cartype from "./cartype.vue"
+import cardate from "./cardate.vue"
+import information from "../public/information.vue"
 export default {
     components: {
         Heador,
-        Slider,
-        ada,
-        Type,
-        adb,
-        adc,
         footor,
         Navbar,
+        cararea,
+        cartype,
+        cardate,
+        information,
     },
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" module>
 
 </style>

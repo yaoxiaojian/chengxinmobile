@@ -14,7 +14,9 @@ export default {
 </script>
 
 <style lang="scss" module>
+@import '../../css/element.scss';
 .panel{
+  @include panel;
   margin-top: 20px;
   >h4{
     display: none;

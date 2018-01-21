@@ -1,0 +1,3038 @@
+{
+	"brand" : [{
+		"brandname" : "Jeep",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "2500"
+			},{
+			"seriesname" : "2700"
+			},{
+			"seriesname" : "城市猎人"
+			},{
+			"seriesname" : "大切诺基"
+			},{
+			"seriesname" : "牧马人"
+			},{
+			"seriesname" : "切诺基"
+			},{
+			"seriesname" : "指挥官"
+			},{
+			"seriesname" : "指南者"
+			},{
+			"seriesname" : "自由客"
+			}]
+		},{
+		"brandname" : "Mini",
+		"brandpy" : "M",
+		"series" : [{
+			"seriesname" : "MINI"
+			},{
+			"seriesname" : "MINI Cabrio"
+			},{
+			"seriesname" : "MINI Clubman"
+			},{
+			"seriesname" : "Mini Countryman"
+			},{
+			"seriesname" : "MINI Coupe"
+			},{
+			"seriesname" : "MINI Roadster"
+			}]
+		},{
+		"brandname" : "Smart",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "Fortwo"
+			}]
+		},{
+		"brandname" : "阿尔法·罗米欧",
+		"brandpy" : "A",
+		"series" : [{
+			"seriesname" : "156"
+			},{
+			"seriesname" : "166"
+			},{
+			"seriesname" : "GTV"
+			}]
+		},{
+		"brandname" : "阿斯顿·马丁",
+		"brandpy" : "A",
+		"series" : [{
+			"seriesname" : "DB9"
+			},{
+			"seriesname" : "DBS"
+			},{
+			"seriesname" : "RAPIDE"
+			},{
+			"seriesname" : "V12 Vantage"
+			},{
+			"seriesname" : "V8 Vantage"
+			}]
+		},{
+		"brandname" : "安驰",
+		"brandpy" : "A",
+		"series" : [{
+			"seriesname" : "金牛"
+			},{
+			"seriesname" : "凌铃"
+			},{
+			"seriesname" : "瑞驰"
+			},{
+			"seriesname" : "瑞铃"
+			},{
+			"seriesname" : "雪豹 X50"
+			},{
+			"seriesname" : "雪豹 X80"
+			}]
+		},{
+		"brandname" : "奥迪",
+		"brandpy" : "A",
+		"series" : [{
+			"seriesname" : "100"
+			},{
+			"seriesname" : "200"
+			},{
+			"seriesname" : "A1"
+			},{
+			"seriesname" : "A3"
+			},{
+			"seriesname" : "A4"
+			},{
+			"seriesname" : "A4L"
+			},{
+			"seriesname" : "A5"
+			},{
+			"seriesname" : "A6"
+			},{
+			"seriesname" : "A6(L)"
+			},{
+			"seriesname" : "A6L"
+			},{
+			"seriesname" : "A7"
+			},{
+			"seriesname" : "A8L"
+			},{
+			"seriesname" : "Allroad"
+			},{
+			"seriesname" : "Q3"
+			},{
+			"seriesname" : "Q5"
+			},{
+			"seriesname" : "Q7"
+			},{
+			"seriesname" : "R8"
+			},{
+			"seriesname" : "RS5"
+			},{
+			"seriesname" : "S5"
+			},{
+			"seriesname" : "S8"
+			},{
+			"seriesname" : "TT"
+			},{
+			"seriesname" : "TTS"
+			}]
+		},{
+		"brandname" : "奥克斯",
+		"brandpy" : "A",
+		"series" : [{
+			"seriesname" : "朗杰"
+			},{
+			"seriesname" : "瑞途"
+			},{
+			"seriesname" : "原动力"
+			}]
+		},{
+		"brandname" : "宝骏",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "630"
+			},{
+			"seriesname" : "乐驰"
+			}]
+		},{
+		"brandname" : "宝龙",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "霸道"
+			},{
+			"seriesname" : "商务车"
+			},{
+			"seriesname" : "天马座"
+			}]
+		},{
+		"brandname" : "宝马",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "116i"
+			},{
+			"seriesname" : "118i"
+			},{
+			"seriesname" : "120i"
+			},{
+			"seriesname" : "125i"
+			},{
+			"seriesname" : "130i"
+			},{
+			"seriesname" : "1M"
+			},{
+			"seriesname" : "318Ci"
+			},{
+			"seriesname" : "318i"
+			},{
+			"seriesname" : "320Ci"
+			},{
+			"seriesname" : "320i"
+			},{
+			"seriesname" : "320Li"
+			},{
+			"seriesname" : "325Ci"
+			},{
+			"seriesname" : "325i"
+			},{
+			"seriesname" : "328i"
+			},{
+			"seriesname" : "328Li"
+			},{
+			"seriesname" : "330Ci"
+			},{
+			"seriesname" : "330i"
+			},{
+			"seriesname" : "330Xd"
+			},{
+			"seriesname" : "335Ci"
+			},{
+			"seriesname" : "335i"
+			},{
+			"seriesname" : "335Li"
+			},{
+			"seriesname" : "520i"
+			},{
+			"seriesname" : "520Li"
+			},{
+			"seriesname" : "523i"
+			},{
+			"seriesname" : "523Li"
+			},{
+			"seriesname" : "525i"
+			},{
+			"seriesname" : "525Li"
+			},{
+			"seriesname" : "528i"
+			},{
+			"seriesname" : "528Li"
+			},{
+			"seriesname" : "530D"
+			},{
+			"seriesname" : "530i"
+			},{
+			"seriesname" : "530Li"
+			},{
+			"seriesname" : "535i"
+			},{
+			"seriesname" : "535Li"
+			},{
+			"seriesname" : "545i"
+			},{
+			"seriesname" : "550i"
+			},{
+			"seriesname" : "630i"
+			},{
+			"seriesname" : "640i"
+			},{
+			"seriesname" : "650i"
+			},{
+			"seriesname" : "730i"
+			},{
+			"seriesname" : "730Li"
+			},{
+			"seriesname" : "735i"
+			},{
+			"seriesname" : "735Li"
+			},{
+			"seriesname" : "740Li"
+			},{
+			"seriesname" : "745i"
+			},{
+			"seriesname" : "745Li"
+			},{
+			"seriesname" : "750Li"
+			},{
+			"seriesname" : "760Li"
+			},{
+			"seriesname" : "M135i"
+			},{
+			"seriesname" : "M3"
+			},{
+			"seriesname" : "M5"
+			},{
+			"seriesname" : "M6"
+			},{
+			"seriesname" : "X1"
+			},{
+			"seriesname" : "X3"
+			},{
+			"seriesname" : "X5"
+			},{
+			"seriesname" : "X5 M"
+			},{
+			"seriesname" : "X6"
+			},{
+			"seriesname" : "X6 M"
+			},{
+			"seriesname" : "X6 高效混合动力"
+			},{
+			"seriesname" : "Z3"
+			},{
+			"seriesname" : "Z4"
+			},{
+			"seriesname" : "Z8"
+			},{
+			"seriesname" : "高效混合动力5系"
+			},{
+			"seriesname" : "高效混合动力7系"
+			}]
+		},{
+		"brandname" : "宝马Mini",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "MINI"
+			},{
+			"seriesname" : "MINI Cabrio"
+			},{
+			"seriesname" : "MINI Clubman"
+			}]
+		},{
+		"brandname" : "保定大迪",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "都市骏马"
+			},{
+			"seriesname" : "都市威菱"
+			},{
+			"seriesname" : "富顺"
+			},{
+			"seriesname" : "豪顺"
+			},{
+			"seriesname" : "顺驰"
+			}]
+		},{
+		"brandname" : "保时捷",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "911"
+			},{
+			"seriesname" : "Boxster"
+			},{
+			"seriesname" : "Cayman"
+			},{
+			"seriesname" : "Panamera"
+			},{
+			"seriesname" : "卡宴"
+			}]
+		},{
+		"brandname" : "北京",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "E130"
+			},{
+			"seriesname" : "E150"
+			}]
+		},{
+		"brandname" : "北京奔驰克莱斯勒",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "300C"
+			},{
+			"seriesname" : "铂锐"
+			}]
+		},{
+		"brandname" : "北京吉普",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "2500"
+			},{
+			"seriesname" : "2700"
+			},{
+			"seriesname" : "城市猎人"
+			}]
+		},{
+		"brandname" : "北京汽车制造厂",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "雷驰"
+			},{
+			"seriesname" : "陆霸"
+			},{
+			"seriesname" : "陆铃"
+			},{
+			"seriesname" : "骑士"
+			},{
+			"seriesname" : "旋风二代"
+			},{
+			"seriesname" : "战旗"
+			},{
+			"seriesname" : "战旗越野小卡"
+			}]
+		},{
+		"brandname" : "北汽制造",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "角斗士"
+			},{
+			"seriesname" : "雷驰"
+			},{
+			"seriesname" : "陆霸"
+			},{
+			"seriesname" : "陆铃"
+			},{
+			"seriesname" : "骑士"
+			},{
+			"seriesname" : "锐铃"
+			},{
+			"seriesname" : "旋风二代"
+			},{
+			"seriesname" : "勇士"
+			},{
+			"seriesname" : "域胜007"
+			},{
+			"seriesname" : "越铃"
+			},{
+			"seriesname" : "战旗"
+			},{
+			"seriesname" : "战旗越野小卡"
+			}]
+		},{
+		"brandname" : "本田",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "CR-V"
+			},{
+			"seriesname" : "CR-Z"
+			},{
+			"seriesname" : "艾力绅"
+			},{
+			"seriesname" : "奥德赛"
+			},{
+			"seriesname" : "传奇"
+			},{
+			"seriesname" : "飞度"
+			},{
+			"seriesname" : "锋范"
+			},{
+			"seriesname" : "歌诗图"
+			},{
+			"seriesname" : "时韵"
+			},{
+			"seriesname" : "思铂睿"
+			},{
+			"seriesname" : "思迪"
+			},{
+			"seriesname" : "思域"
+			},{
+			"seriesname" : "雅阁"
+			}]
+		},{
+		"brandname" : "比亚迪",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "e6"
+			},{
+			"seriesname" : "F0"
+			},{
+			"seriesname" : "F3"
+			},{
+			"seriesname" : "F3-R"
+			},{
+			"seriesname" : "F6"
+			},{
+			"seriesname" : "G3"
+			},{
+			"seriesname" : "G3R"
+			},{
+			"seriesname" : "G6"
+			},{
+			"seriesname" : "L3"
+			},{
+			"seriesname" : "M6"
+			},{
+			"seriesname" : "S6"
+			},{
+			"seriesname" : "S8"
+			},{
+			"seriesname" : "福莱尔"
+			},{
+			"seriesname" : "速锐"
+			}]
+		},{
+		"brandname" : "标致",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "206"
+			},{
+			"seriesname" : "207"
+			},{
+			"seriesname" : "3008"
+			},{
+			"seriesname" : "307"
+			},{
+			"seriesname" : "308"
+			},{
+			"seriesname" : "4008"
+			},{
+			"seriesname" : "406"
+			},{
+			"seriesname" : "407"
+			},{
+			"seriesname" : "408"
+			},{
+			"seriesname" : "508"
+			},{
+			"seriesname" : "607"
+			},{
+			"seriesname" : "Cross 307"
+			},{
+			"seriesname" : "RCZ"
+			}]
+		},{
+		"brandname" : "别克",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "GL8"
+			},{
+			"seriesname" : "昂科拉"
+			},{
+			"seriesname" : "昂科雷"
+			},{
+			"seriesname" : "别克"
+			},{
+			"seriesname" : "君威"
+			},{
+			"seriesname" : "君越"
+			},{
+			"seriesname" : "凯越"
+			},{
+			"seriesname" : "林荫大道"
+			},{
+			"seriesname" : "荣御"
+			},{
+			"seriesname" : "赛欧"
+			},{
+			"seriesname" : "英朗GT"
+			},{
+			"seriesname" : "英朗XT"
+			}]
+		},{
+		"brandname" : "宾利",
+		"brandpy" : "B",
+		"series" : [{
+			"seriesname" : "Continental Spursports"
+			},{
+			"seriesname" : "慕尚"
+			},{
+			"seriesname" : "欧陆"
+			},{
+			"seriesname" : "欧陆飞驰"
+			},{
+			"seriesname" : "雅骏"
+			},{
+			"seriesname" : "雅致Mulliner"
+			}]
+		},{
+		"brandname" : "昌河汽车",
+		"brandpy" : "C",
+		"series" : [{
+			"seriesname" : "爱迪尔"
+			},{
+			"seriesname" : "福瑞达"
+			},{
+			"seriesname" : "福运"
+			},{
+			"seriesname" : "海豚"
+			},{
+			"seriesname" : "派喜"
+			}]
+		},{
+		"brandname" : "长安汽车",
+		"brandpy" : "C",
+		"series" : [{
+			"seriesname" : "6372运通系列客车"
+			},{
+			"seriesname" : "Benben Love"
+			},{
+			"seriesname" : "CM8"
+			},{
+			"seriesname" : "CS35"
+			},{
+			"seriesname" : "CX20"
+			},{
+			"seriesname" : "CX30"
+			},{
+			"seriesname" : "S460"
+			},{
+			"seriesname" : "奔奔"
+			},{
+			"seriesname" : "奔奔Mini"
+			},{
+			"seriesname" : "长安之星"
+			},{
+			"seriesname" : "都市彩虹"
+			},{
+			"seriesname" : "杰勋"
+			},{
+			"seriesname" : "金牛星"
+			},{
+			"seriesname" : "跨越"
+			},{
+			"seriesname" : "镭蒙"
+			},{
+			"seriesname" : "绿色新星"
+			},{
+			"seriesname" : "欧诺"
+			},{
+			"seriesname" : "神骐"
+			},{
+			"seriesname" : "星光"
+			},{
+			"seriesname" : "星光小卡"
+			},{
+			"seriesname" : "星卡"
+			},{
+			"seriesname" : "星韵"
+			},{
+			"seriesname" : "雪虎"
+			},{
+			"seriesname" : "逸动"
+			},{
+			"seriesname" : "悦翔"
+			},{
+			"seriesname" : "悦翔V3"
+			},{
+			"seriesname" : "悦翔V5"
+			},{
+			"seriesname" : "运动星"
+			},{
+			"seriesname" : "志翔"
+			}]
+		},{
+		"brandname" : "长城",
+		"brandpy" : "C",
+		"series" : [{
+			"seriesname" : "大脚兽"
+			},{
+			"seriesname" : "迪尔"
+			},{
+			"seriesname" : "风骏"
+			},{
+			"seriesname" : "风骏5"
+			},{
+			"seriesname" : "风骏房车"
+			},{
+			"seriesname" : "哈弗"
+			},{
+			"seriesname" : "哈弗H6"
+			},{
+			"seriesname" : "哈弗M1"
+			},{
+			"seriesname" : "哈弗M2"
+			},{
+			"seriesname" : "哈弗M4"
+			},{
+			"seriesname" : "嘉誉"
+			},{
+			"seriesname" : "金迪尔"
+			},{
+			"seriesname" : "精灵"
+			},{
+			"seriesname" : "酷熊"
+			},{
+			"seriesname" : "凌傲"
+			},{
+			"seriesname" : "赛弗"
+			},{
+			"seriesname" : "赛骏"
+			},{
+			"seriesname" : "赛酷"
+			},{
+			"seriesname" : "赛铃"
+			},{
+			"seriesname" : "赛影"
+			},{
+			"seriesname" : "腾翼C20R"
+			},{
+			"seriesname" : "腾翼C30"
+			},{
+			"seriesname" : "腾翼C50"
+			},{
+			"seriesname" : "腾翼V80"
+			},{
+			"seriesname" : "炫丽"
+			}]
+		},{
+		"brandname" : "长丰",
+		"brandpy" : "C",
+		"series" : [{
+			"seriesname" : "猎豹"
+			},{
+			"seriesname" : "猎豹CS6"
+			},{
+			"seriesname" : "猎豹CS7"
+			},{
+			"seriesname" : "猎豹飞腾"
+			},{
+			"seriesname" : "猎豹黑金刚"
+			},{
+			"seriesname" : "奇兵"
+			},{
+			"seriesname" : "骐菱"
+			}]
+		},{
+		"brandname" : "长丰扬子",
+		"brandpy" : "C",
+		"series" : [{
+			"seriesname" : "DUV"
+			},{
+			"seriesname" : "飞铃"
+			},{
+			"seriesname" : "飞铃皮卡"
+			},{
+			"seriesname" : "飞扬皮卡"
+			},{
+			"seriesname" : "猎豹CT5"
+			}]
+		},{
+		"brandname" : "川汽野马",
+		"brandpy" : "C",
+		"series" : [{
+			"seriesname" : "F99"
+			}]
+		},{
+		"brandname" : "传祺",
+		"brandpy" : "C",
+		"series" : [{
+			"seriesname" : "传祺"
+			}]
+		},{
+		"brandname" : "大迪",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "霸道"
+			},{
+			"seriesname" : "都市骏马"
+			},{
+			"seriesname" : "都市威菱"
+			},{
+			"seriesname" : "富顺"
+			},{
+			"seriesname" : "豪顺"
+			},{
+			"seriesname" : "顺驰"
+			}]
+		},{
+		"brandname" : "大发",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "森雅"
+			},{
+			"seriesname" : "特锐"
+			}]
+		},{
+		"brandname" : "大通",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "V80"
+			}]
+		},{
+		"brandname" : "大宇",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "典雅"
+			},{
+			"seriesname" : "蓝龙"
+			},{
+			"seriesname" : "蓝天"
+			},{
+			"seriesname" : "旅行家"
+			}]
+		},{
+		"brandname" : "大众",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "CC"
+			},{
+			"seriesname" : "Cross Polo"
+			},{
+			"seriesname" : "Eos"
+			},{
+			"seriesname" : "New Polo"
+			},{
+			"seriesname" : "POLO劲情"
+			},{
+			"seriesname" : "POLO劲取"
+			},{
+			"seriesname" : "R36"
+			},{
+			"seriesname" : "Tiguan"
+			},{
+			"seriesname" : "宝来"
+			},{
+			"seriesname" : "波罗"
+			},{
+			"seriesname" : "都市高尔夫"
+			},{
+			"seriesname" : "高尔"
+			},{
+			"seriesname" : "高尔夫"
+			},{
+			"seriesname" : "高尔夫GTI"
+			},{
+			"seriesname" : "辉腾"
+			},{
+			"seriesname" : "甲壳虫"
+			},{
+			"seriesname" : "捷达"
+			},{
+			"seriesname" : "开迪"
+			},{
+			"seriesname" : "朗逸"
+			},{
+			"seriesname" : "迈腾"
+			},{
+			"seriesname" : "帕萨特"
+			},{
+			"seriesname" : "桑塔纳"
+			},{
+			"seriesname" : "桑塔纳2000"
+			},{
+			"seriesname" : "桑塔纳3000"
+			},{
+			"seriesname" : "桑塔纳Vista"
+			},{
+			"seriesname" : "尚酷"
+			},{
+			"seriesname" : "速腾"
+			},{
+			"seriesname" : "途安"
+			},{
+			"seriesname" : "途观"
+			},{
+			"seriesname" : "途锐"
+			},{
+			"seriesname" : "夏朗"
+			},{
+			"seriesname" : "新宝来"
+			}]
+		},{
+		"brandname" : "道奇",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "锋哲"
+			},{
+			"seriesname" : "凯领"
+			},{
+			"seriesname" : "酷搏"
+			},{
+			"seriesname" : "酷威"
+			}]
+		},{
+		"brandname" : "帝豪",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "EC7"
+			},{
+			"seriesname" : "EC718"
+			},{
+			"seriesname" : "EC7-RV"
+			},{
+			"seriesname" : "EC8"
+			}]
+		},{
+		"brandname" : "东风风神",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "A60"
+			},{
+			"seriesname" : "H30"
+			},{
+			"seriesname" : "H30 Cross"
+			},{
+			"seriesname" : "S30"
+			}]
+		},{
+		"brandname" : "东风风行",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "风行"
+			},{
+			"seriesname" : "景逸"
+			},{
+			"seriesname" : "景逸SUV"
+			}]
+		},{
+		"brandname" : "东风俊风",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "俊风CV03"
+			}]
+		},{
+		"brandname" : "东风柳汽",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "风行"
+			},{
+			"seriesname" : "景逸"
+			}]
+		},{
+		"brandname" : "东风汽车",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "多利卡"
+			},{
+			"seriesname" : "福瑞卡"
+			},{
+			"seriesname" : "皮卡"
+			},{
+			"seriesname" : "御风"
+			}]
+		},{
+		"brandname" : "东风小康",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "C37"
+			},{
+			"seriesname" : "K05 II"
+			},{
+			"seriesname" : "K07"
+			},{
+			"seriesname" : "K07 II"
+			},{
+			"seriesname" : "K17"
+			},{
+			"seriesname" : "V07S"
+			},{
+			"seriesname" : "V21"
+			},{
+			"seriesname" : "V22"
+			},{
+			"seriesname" : "V26"
+			},{
+			"seriesname" : "V27"
+			},{
+			"seriesname" : "V29"
+			},{
+			"seriesname" : "小康"
+			}]
+		},{
+		"brandname" : "东风渝安",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "小康"
+			}]
+		},{
+		"brandname" : "东风郑州",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "ZN6491商务车"
+			},{
+			"seriesname" : "ZN6492"
+			},{
+			"seriesname" : "ZN6493商务车"
+			},{
+			"seriesname" : "奥丁"
+			},{
+			"seriesname" : "锐骐"
+			},{
+			"seriesname" : "锐骐柴油皮卡"
+			},{
+			"seriesname" : "锐骐多功能商务车"
+			},{
+			"seriesname" : "帅客"
+			},{
+			"seriesname" : "御轩"
+			}]
+		},{
+		"brandname" : "东南",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "得利卡"
+			},{
+			"seriesname" : "富利卡"
+			},{
+			"seriesname" : "菱动"
+			},{
+			"seriesname" : "菱利"
+			},{
+			"seriesname" : "菱帅"
+			},{
+			"seriesname" : "菱悦"
+			}]
+		},{
+		"brandname" : "东南道奇",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "凯领"
+			}]
+		},{
+		"brandname" : "东南克莱斯勒",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "大捷龙"
+			}]
+		},{
+		"brandname" : "东南汽车",
+		"brandpy" : "D",
+		"series" : [{
+			"seriesname" : "得利卡"
+			},{
+			"seriesname" : "富利卡"
+			},{
+			"seriesname" : "君阁"
+			},{
+			"seriesname" : "蓝瑟"
+			},{
+			"seriesname" : "蓝瑟?翼神"
+			},{
+			"seriesname" : "菱动"
+			},{
+			"seriesname" : "菱利"
+			},{
+			"seriesname" : "菱绅"
+			},{
+			"seriesname" : "菱帅"
+			},{
+			"seriesname" : "菱悦"
+			}]
+		},{
+		"brandname" : "法拉利",
+		"brandpy" : "F",
+		"series" : [{
+			"seriesname" : "360系列"
+			},{
+			"seriesname" : "458 Italia"
+			},{
+			"seriesname" : "575 系列"
+			},{
+			"seriesname" : "599 GTB Fiorano"
+			},{
+			"seriesname" : "612 Scaglietti"
+			},{
+			"seriesname" : "California"
+			},{
+			"seriesname" : "Enzo Ferrari"
+			},{
+			"seriesname" : "F12 Berlinetta"
+			},{
+			"seriesname" : "F430"
+			},{
+			"seriesname" : "F430 Scuderia"
+			},{
+			"seriesname" : "F430 Spider"
+			},{
+			"seriesname" : "FF"
+			}]
+		},{
+		"brandname" : "飞碟汽车",
+		"brandpy" : "F",
+		"series" : [{
+			"seriesname" : "UFO"
+			}]
+		},{
+		"brandname" : "菲亚特",
+		"brandpy" : "F",
+		"series" : [{
+			"seriesname" : "500"
+			},{
+			"seriesname" : "博悦"
+			},{
+			"seriesname" : "多宝"
+			},{
+			"seriesname" : "菲跃"
+			},{
+			"seriesname" : "领雅"
+			},{
+			"seriesname" : "马力昂"
+			},{
+			"seriesname" : "派朗"
+			},{
+			"seriesname" : "派力奥"
+			},{
+			"seriesname" : "朋多"
+			},{
+			"seriesname" : "西耶那"
+			}]
+		},{
+		"brandname" : "丰田",
+		"brandpy" : "F",
+		"series" : [{
+			"seriesname" : "FJ酷路泽"
+			},{
+			"seriesname" : "MR2"
+			},{
+			"seriesname" : "RAV 4"
+			},{
+			"seriesname" : "RAV4"
+			},{
+			"seriesname" : "埃尔法"
+			},{
+			"seriesname" : "汉兰达"
+			},{
+			"seriesname" : "花冠"
+			},{
+			"seriesname" : "皇冠"
+			},{
+			"seriesname" : "佳美"
+			},{
+			"seriesname" : "卡罗拉"
+			},{
+			"seriesname" : "凯美瑞"
+			},{
+			"seriesname" : "凯美瑞 混合动力"
+			},{
+			"seriesname" : "柯斯达"
+			},{
+			"seriesname" : "兰德酷路泽"
+			},{
+			"seriesname" : "陆地巡洋舰"
+			},{
+			"seriesname" : "普拉多"
+			},{
+			"seriesname" : "普锐斯"
+			},{
+			"seriesname" : "普瑞维亚(大霸王)"
+			},{
+			"seriesname" : "锐志"
+			},{
+			"seriesname" : "塞利卡"
+			},{
+			"seriesname" : "威驰"
+			},{
+			"seriesname" : "雅力士"
+			},{
+			"seriesname" : "亚洲龙"
+			}]
+		},{
+		"brandname" : "福迪",
+		"brandpy" : "F",
+		"series" : [{
+			"seriesname" : "飞越"
+			},{
+			"seriesname" : "探索者 6"
+			},{
+			"seriesname" : "探索者 I"
+			},{
+			"seriesname" : "探索者 II"
+			},{
+			"seriesname" : "探索者 III"
+			},{
+			"seriesname" : "小超人"
+			},{
+			"seriesname" : "雄狮皮卡"
+			}]
+		},{
+		"brandname" : "福特",
+		"brandpy" : "F",
+		"series" : [{
+			"seriesname" : "S-MAX"
+			},{
+			"seriesname" : "福克斯"
+			},{
+			"seriesname" : "嘉年华"
+			},{
+			"seriesname" : "经典全顺"
+			},{
+			"seriesname" : "蒙迪欧"
+			},{
+			"seriesname" : "全顺"
+			},{
+			"seriesname" : "锐界"
+			},{
+			"seriesname" : "稳达"
+			},{
+			"seriesname" : "新世代全顺"
+			},{
+			"seriesname" : "翼虎"
+			}]
+		},{
+		"brandname" : "福田",
+		"brandpy" : "F",
+		"series" : [{
+			"seriesname" : "爱尔法"
+			},{
+			"seriesname" : "奥铃"
+			},{
+			"seriesname" : "传奇"
+			},{
+			"seriesname" : "风景"
+			},{
+			"seriesname" : "风景冲浪"
+			},{
+			"seriesname" : "风景海狮"
+			},{
+			"seriesname" : "蒙派克"
+			},{
+			"seriesname" : "蒙派克 迷迪"
+			},{
+			"seriesname" : "迷迪"
+			},{
+			"seriesname" : "萨普"
+			},{
+			"seriesname" : "拓路者"
+			},{
+			"seriesname" : "驭菱"
+			}]
+		},{
+		"brandname" : "贵州云雀汽车",
+		"brandpy" : "G",
+		"series" : [{
+			"seriesname" : "云雀"
+			}]
+		},{
+		"brandname" : "哈飞",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "百利"
+			},{
+			"seriesname" : "骏意"
+			},{
+			"seriesname" : "路宝"
+			},{
+			"seriesname" : "路尊"
+			},{
+			"seriesname" : "民意"
+			},{
+			"seriesname" : "赛豹"
+			},{
+			"seriesname" : "赛马"
+			},{
+			"seriesname" : "中意"
+			}]
+		},{
+		"brandname" : "哈飞汽车",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "百利"
+			},{
+			"seriesname" : "路宝"
+			},{
+			"seriesname" : "路尊"
+			},{
+			"seriesname" : "民意"
+			},{
+			"seriesname" : "赛豹"
+			},{
+			"seriesname" : "赛马"
+			},{
+			"seriesname" : "中意"
+			}]
+		},{
+		"brandname" : "海格汽车",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "御骏"
+			}]
+		},{
+		"brandname" : "海马",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "爱尚"
+			},{
+			"seriesname" : "福美来"
+			},{
+			"seriesname" : "福仕达"
+			},{
+			"seriesname" : "海福星"
+			},{
+			"seriesname" : "海马3"
+			},{
+			"seriesname" : "鸿达"
+			},{
+			"seriesname" : "欢动"
+			},{
+			"seriesname" : "普力马"
+			},{
+			"seriesname" : "骑士"
+			},{
+			"seriesname" : "丘比特"
+			},{
+			"seriesname" : "王子"
+			}]
+		},{
+		"brandname" : "悍马",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "H3"
+			}]
+		},{
+		"brandname" : "黑豹",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "黑豹轿卡"
+			},{
+			"seriesname" : "旅行家"
+			}]
+		},{
+		"brandname" : "恒天汽车",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "途腾"
+			}]
+		},{
+		"brandname" : "华晨金杯",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "阁瑞斯"
+			},{
+			"seriesname" : "海狮"
+			},{
+			"seriesname" : "海星"
+			},{
+			"seriesname" : "骏捷"
+			},{
+			"seriesname" : "骏捷Cross"
+			},{
+			"seriesname" : "骏捷FRV"
+			},{
+			"seriesname" : "骏捷FSV"
+			},{
+			"seriesname" : "骏捷Wagon"
+			},{
+			"seriesname" : "勤务兵"
+			},{
+			"seriesname" : "锐驰"
+			},{
+			"seriesname" : "中华"
+			},{
+			"seriesname" : "中华酷宝"
+			},{
+			"seriesname" : "尊驰"
+			}]
+		},{
+		"brandname" : "华晨中华",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "Cross 飞炫"
+			},{
+			"seriesname" : "H230"
+			},{
+			"seriesname" : "H320"
+			},{
+			"seriesname" : "H530"
+			},{
+			"seriesname" : "V5"
+			},{
+			"seriesname" : "骏捷"
+			},{
+			"seriesname" : "骏捷Cross"
+			},{
+			"seriesname" : "骏捷FRV"
+			},{
+			"seriesname" : "骏捷FSV"
+			},{
+			"seriesname" : "骏捷Wagon"
+			},{
+			"seriesname" : "中华"
+			},{
+			"seriesname" : "中华酷宝"
+			},{
+			"seriesname" : "尊驰"
+			}]
+		},{
+		"brandname" : "华普",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "M203"
+			},{
+			"seriesname" : "海锋"
+			},{
+			"seriesname" : "海景"
+			},{
+			"seriesname" : "海尚"
+			},{
+			"seriesname" : "海尚MA"
+			},{
+			"seriesname" : "海炫AA"
+			},{
+			"seriesname" : "海讯"
+			},{
+			"seriesname" : "海迅AA"
+			},{
+			"seriesname" : "海迅AB"
+			},{
+			"seriesname" : "海迅MA"
+			},{
+			"seriesname" : "海域"
+			},{
+			"seriesname" : "海域 MA"
+			},{
+			"seriesname" : "海域305"
+			},{
+			"seriesname" : "海域AA"
+			},{
+			"seriesname" : "海域MB"
+			},{
+			"seriesname" : "海悦"
+			},{
+			"seriesname" : "飓风"
+			},{
+			"seriesname" : "美鹿"
+			},{
+			"seriesname" : "英伦TX4"
+			}]
+		},{
+		"brandname" : "华泰",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "B11"
+			},{
+			"seriesname" : "宝利格"
+			},{
+			"seriesname" : "吉田"
+			},{
+			"seriesname" : "圣达菲"
+			},{
+			"seriesname" : "特拉卡"
+			}]
+		},{
+		"brandname" : "华泰汽车",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "圣达菲"
+			}]
+		},{
+		"brandname" : "华泰现代",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "吉田"
+			},{
+			"seriesname" : "圣达菲"
+			},{
+			"seriesname" : "特拉卡"
+			}]
+		},{
+		"brandname" : "华翔富奇",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "财富"
+			},{
+			"seriesname" : "富奇"
+			},{
+			"seriesname" : "海马柯"
+			},{
+			"seriesname" : "驭虎"
+			}]
+		},{
+		"brandname" : "汇众",
+		"brandpy" : "H",
+		"series" : [{
+			"seriesname" : "德驰"
+			},{
+			"seriesname" : "伊思坦纳"
+			}]
+		},{
+		"brandname" : "吉奥",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "GS50"
+			},{
+			"seriesname" : "GX6"
+			},{
+			"seriesname" : "奥腾"
+			},{
+			"seriesname" : "奥轩G3"
+			},{
+			"seriesname" : "奥轩G5"
+			},{
+			"seriesname" : "奥轩GX5"
+			},{
+			"seriesname" : "财运"
+			},{
+			"seriesname" : "柴神"
+			},{
+			"seriesname" : "凯睿"
+			},{
+			"seriesname" : "凯旋"
+			},{
+			"seriesname" : "猛将旅"
+			},{
+			"seriesname" : "帅驰"
+			},{
+			"seriesname" : "帅舰"
+			},{
+			"seriesname" : "帅威"
+			},{
+			"seriesname" : "星旺"
+			},{
+			"seriesname" : "伊美"
+			}]
+		},{
+		"brandname" : "吉利",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "豹风"
+			},{
+			"seriesname" : "豪情"
+			},{
+			"seriesname" : "豪情SRV"
+			},{
+			"seriesname" : "金刚"
+			},{
+			"seriesname" : "金鹰"
+			},{
+			"seriesname" : "雳靓"
+			},{
+			"seriesname" : "美人豹"
+			},{
+			"seriesname" : "美日"
+			},{
+			"seriesname" : "熊猫"
+			},{
+			"seriesname" : "优利欧"
+			},{
+			"seriesname" : "远景"
+			},{
+			"seriesname" : "中国龙"
+			},{
+			"seriesname" : "自由舰"
+			}]
+		},{
+		"brandname" : "吉利帝豪",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "EC718"
+			},{
+			"seriesname" : "EC7-RV"
+			}]
+		},{
+		"brandname" : "吉林通田",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "阁萝"
+			}]
+		},{
+		"brandname" : "吉普",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "2500"
+			},{
+			"seriesname" : "2700"
+			},{
+			"seriesname" : "城市猎人"
+			},{
+			"seriesname" : "大切诺基"
+			},{
+			"seriesname" : "牧马人"
+			},{
+			"seriesname" : "切诺基"
+			},{
+			"seriesname" : "指挥官"
+			},{
+			"seriesname" : "指南者"
+			}]
+		},{
+		"brandname" : "江淮",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "宾悦"
+			},{
+			"seriesname" : "和悦"
+			},{
+			"seriesname" : "瑞风"
+			},{
+			"seriesname" : "瑞铃"
+			},{
+			"seriesname" : "瑞鹰"
+			},{
+			"seriesname" : "同悦"
+			},{
+			"seriesname" : "星锐"
+			},{
+			"seriesname" : "悦悦"
+			}]
+		},{
+		"brandname" : "江铃汽车",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "宝典"
+			},{
+			"seriesname" : "陆风"
+			},{
+			"seriesname" : "陆风X8"
+			},{
+			"seriesname" : "陆风风华"
+			},{
+			"seriesname" : "陆风风尚"
+			},{
+			"seriesname" : "全顺"
+			}]
+		},{
+		"brandname" : "江南",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "TT"
+			},{
+			"seriesname" : "奥拓"
+			},{
+			"seriesname" : "传奇"
+			},{
+			"seriesname" : "风光"
+			},{
+			"seriesname" : "精灵"
+			}]
+		},{
+		"brandname" : "江苏南亚",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "君达"
+			},{
+			"seriesname" : "英格尔"
+			}]
+		},{
+		"brandname" : "捷豹",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "S型"
+			},{
+			"seriesname" : "XF"
+			},{
+			"seriesname" : "XFR"
+			},{
+			"seriesname" : "XJ"
+			},{
+			"seriesname" : "XJL"
+			},{
+			"seriesname" : "XK"
+			},{
+			"seriesname" : "XKR"
+			},{
+			"seriesname" : "XKR-S"
+			},{
+			"seriesname" : "X型"
+			}]
+		},{
+		"brandname" : "金程",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "海狮"
+			},{
+			"seriesname" : "横行"
+			},{
+			"seriesname" : "金程之星"
+			},{
+			"seriesname" : "领跑"
+			},{
+			"seriesname" : "赛风"
+			},{
+			"seriesname" : "先锋"
+			}]
+		},{
+		"brandname" : "金龙客车",
+		"brandpy" : "J",
+		"series" : [{
+			"seriesname" : "A+海狮"
+			},{
+			"seriesname" : "金龙海狮"
+			}]
+		},{
+		"brandname" : "开瑞",
+		"brandpy" : "K",
+		"series" : [{
+			"seriesname" : "优劲"
+			},{
+			"seriesname" : "优派"
+			},{
+			"seriesname" : "优胜"
+			},{
+			"seriesname" : "优雅"
+			},{
+			"seriesname" : "优翼"
+			},{
+			"seriesname" : "优优"
+			}]
+		},{
+		"brandname" : "凯迪拉克",
+		"brandpy" : "K",
+		"series" : [{
+			"seriesname" : "CTS"
+			},{
+			"seriesname" : "CTS-V"
+			},{
+			"seriesname" : "SLS赛威"
+			},{
+			"seriesname" : "SRX"
+			},{
+			"seriesname" : "XLR"
+			},{
+			"seriesname" : "XTS"
+			},{
+			"seriesname" : "帝威"
+			},{
+			"seriesname" : "凯雷德"
+			},{
+			"seriesname" : "赛威"
+			}]
+		},{
+		"brandname" : "凯马",
+		"brandpy" : "K",
+		"series" : [{
+			"seriesname" : "皮卡"
+			}]
+		},{
+		"brandname" : "克莱斯勒",
+		"brandpy" : "K",
+		"series" : [{
+			"seriesname" : "300C"
+			},{
+			"seriesname" : "PT漫步者"
+			},{
+			"seriesname" : "铂锐"
+			},{
+			"seriesname" : "大捷龙"
+			}]
+		},{
+		"brandname" : "兰博基尼",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "Aventador"
+			},{
+			"seriesname" : "Gallardo"
+			},{
+			"seriesname" : "Murcielago"
+			}]
+		},{
+		"brandname" : "劳斯莱斯",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "古斯特"
+			},{
+			"seriesname" : "幻影"
+			}]
+		},{
+		"brandname" : "雷克萨斯",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "CT200h"
+			},{
+			"seriesname" : "ES240"
+			},{
+			"seriesname" : "ES250"
+			},{
+			"seriesname" : "ES300"
+			},{
+			"seriesname" : "ES300h"
+			},{
+			"seriesname" : "ES350"
+			},{
+			"seriesname" : "GS250"
+			},{
+			"seriesname" : "GS300"
+			},{
+			"seriesname" : "GS350"
+			},{
+			"seriesname" : "GS430"
+			},{
+			"seriesname" : "GS450h"
+			},{
+			"seriesname" : "GS460"
+			},{
+			"seriesname" : "GX400"
+			},{
+			"seriesname" : "GX460"
+			},{
+			"seriesname" : "IS200"
+			},{
+			"seriesname" : "IS250"
+			},{
+			"seriesname" : "IS250C"
+			},{
+			"seriesname" : "IS300"
+			},{
+			"seriesname" : "IS300C"
+			},{
+			"seriesname" : "LS430"
+			},{
+			"seriesname" : "LS460"
+			},{
+			"seriesname" : "LS460L"
+			},{
+			"seriesname" : "LS600hL"
+			},{
+			"seriesname" : "LX470"
+			},{
+			"seriesname" : "LX570"
+			},{
+			"seriesname" : "RX270"
+			},{
+			"seriesname" : "RX300"
+			},{
+			"seriesname" : "RX330"
+			},{
+			"seriesname" : "RX350"
+			},{
+			"seriesname" : "RX400h"
+			},{
+			"seriesname" : "RX450h"
+			},{
+			"seriesname" : "SC430"
+			}]
+		},{
+		"brandname" : "雷诺",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "风景"
+			},{
+			"seriesname" : "科雷傲"
+			},{
+			"seriesname" : "拉古娜"
+			},{
+			"seriesname" : "梅甘娜"
+			},{
+			"seriesname" : "威赛帝"
+			}]
+		},{
+		"brandname" : "理念",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "S1"
+			}]
+		},{
+		"brandname" : "力帆",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "320"
+			},{
+			"seriesname" : "520"
+			},{
+			"seriesname" : "520i"
+			},{
+			"seriesname" : "620"
+			},{
+			"seriesname" : "X60"
+			},{
+			"seriesname" : "丰顺"
+			},{
+			"seriesname" : "兴顺"
+			}]
+		},{
+		"brandname" : "莲花",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "L3"
+			},{
+			"seriesname" : "L5"
+			},{
+			"seriesname" : "竞速"
+			},{
+			"seriesname" : "竞悦"
+			},{
+			"seriesname" : "莲花L3"
+			}]
+		},{
+		"brandname" : "林肯",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "LS"
+			},{
+			"seriesname" : "城市"
+			},{
+			"seriesname" : "领航员"
+			}]
+		},{
+		"brandname" : "铃木",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "奥拓"
+			},{
+			"seriesname" : "北斗星"
+			},{
+			"seriesname" : "昌铃王"
+			},{
+			"seriesname" : "超级维特拉"
+			},{
+			"seriesname" : "海象"
+			},{
+			"seriesname" : "吉姆尼"
+			},{
+			"seriesname" : "凯泽西"
+			},{
+			"seriesname" : "浪迪"
+			},{
+			"seriesname" : "利亚纳"
+			},{
+			"seriesname" : "羚羊"
+			},{
+			"seriesname" : "天语 尚悦"
+			},{
+			"seriesname" : "天语SX4"
+			},{
+			"seriesname" : "雨燕"
+			}]
+		},{
+		"brandname" : "陆风",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "X6"
+			},{
+			"seriesname" : "X8"
+			},{
+			"seriesname" : "X9"
+			},{
+			"seriesname" : "陆风"
+			},{
+			"seriesname" : "陆风X8"
+			},{
+			"seriesname" : "陆风风华"
+			},{
+			"seriesname" : "陆风风尚"
+			}]
+		},{
+		"brandname" : "路虎",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "发现"
+			},{
+			"seriesname" : "揽胜"
+			},{
+			"seriesname" : "揽胜极光"
+			},{
+			"seriesname" : "神行者"
+			},{
+			"seriesname" : "神行者（自由人）"
+			},{
+			"seriesname" : "神行者2代"
+			},{
+			"seriesname" : "卫士"
+			}]
+		},{
+		"brandname" : "路特斯",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "Elise"
+			},{
+			"seriesname" : "Evora"
+			},{
+			"seriesname" : "Exige"
+			}]
+		},{
+		"brandname" : "罗孚",
+		"brandpy" : "L",
+		"series" : [{
+			"seriesname" : "Rover 75"
+			},{
+			"seriesname" : "TF"
+			}]
+		},{
+		"brandname" : "马自达",
+		"brandpy" : "M",
+		"series" : [{
+			"seriesname" : "323"
+			},{
+			"seriesname" : "CX-5"
+			},{
+			"seriesname" : "CX-7"
+			},{
+			"seriesname" : "MPV"
+			},{
+			"seriesname" : "MX-5"
+			},{
+			"seriesname" : "RX-8"
+			},{
+			"seriesname" : "福美来"
+			},{
+			"seriesname" : "马自达 2"
+			},{
+			"seriesname" : "马自达 2劲翔"
+			},{
+			"seriesname" : "马自达3"
+			},{
+			"seriesname" : "马自达3 星骋"
+			},{
+			"seriesname" : "马自达5"
+			},{
+			"seriesname" : "马自达6"
+			},{
+			"seriesname" : "马自达6 睿翼"
+			},{
+			"seriesname" : "马自达8"
+			},{
+			"seriesname" : "普力马"
+			}]
+		},{
+		"brandname" : "玛莎拉蒂",
+		"brandpy" : "M",
+		"series" : [{
+			"seriesname" : "Coupe"
+			},{
+			"seriesname" : "Grancabrio"
+			},{
+			"seriesname" : "GranSport"
+			},{
+			"seriesname" : "GranTurismo"
+			},{
+			"seriesname" : "GranTursmo"
+			},{
+			"seriesname" : "总裁"
+			}]
+		},{
+		"brandname" : "迈巴赫",
+		"brandpy" : "M",
+		"series" : [{
+			"seriesname" : "57"
+			},{
+			"seriesname" : "57S"
+			},{
+			"seriesname" : "62"
+			},{
+			"seriesname" : "62S"
+			}]
+		},{
+		"brandname" : "梅赛德斯-奔驰",
+		"brandpy" : "M",
+		"series" : [{
+			"seriesname" : "A160"
+			},{
+			"seriesname" : "A180"
+			},{
+			"seriesname" : "A190"
+			},{
+			"seriesname" : "B200"
+			},{
+			"seriesname" : "C180K"
+			},{
+			"seriesname" : "C200"
+			},{
+			"seriesname" : "C200 CGI"
+			},{
+			"seriesname" : "C200K"
+			},{
+			"seriesname" : "C230"
+			},{
+			"seriesname" : "C240"
+			},{
+			"seriesname" : "C260"
+			},{
+			"seriesname" : "C260 CGI"
+			},{
+			"seriesname" : "C280"
+			},{
+			"seriesname" : "C300"
+			},{
+			"seriesname" : "C63 AMG"
+			},{
+			"seriesname" : "CL600"
+			},{
+			"seriesname" : "CLK200K"
+			},{
+			"seriesname" : "CLK230"
+			},{
+			"seriesname" : "CLK240"
+			},{
+			"seriesname" : "CLK280"
+			},{
+			"seriesname" : "CLK350"
+			},{
+			"seriesname" : "CLS300"
+			},{
+			"seriesname" : "CLS350"
+			},{
+			"seriesname" : "CLS500"
+			},{
+			"seriesname" : "CLS63 AMG"
+			},{
+			"seriesname" : "E200 CGI"
+			},{
+			"seriesname" : "E200K"
+			},{
+			"seriesname" : "E200L CGI"
+			},{
+			"seriesname" : "E230"
+			},{
+			"seriesname" : "E240"
+			},{
+			"seriesname" : "E260"
+			},{
+			"seriesname" : "E260 CGI"
+			},{
+			"seriesname" : "E260L CGI"
+			},{
+			"seriesname" : "E280"
+			},{
+			"seriesname" : "E300"
+			},{
+			"seriesname" : "E300L"
+			},{
+			"seriesname" : "E320"
+			},{
+			"seriesname" : "E350"
+			},{
+			"seriesname" : "E500"
+			},{
+			"seriesname" : "E55 AMG"
+			},{
+			"seriesname" : "E55AMG"
+			},{
+			"seriesname" : "E63 AMG"
+			},{
+			"seriesname" : "G500"
+			},{
+			"seriesname" : "G55 AMG"
+			},{
+			"seriesname" : "GL350"
+			},{
+			"seriesname" : "GL450"
+			},{
+			"seriesname" : "GLK300"
+			},{
+			"seriesname" : "GLK350"
+			},{
+			"seriesname" : "ML300"
+			},{
+			"seriesname" : "ML320"
+			},{
+			"seriesname" : "ML350"
+			},{
+			"seriesname" : "ML500"
+			},{
+			"seriesname" : "ML63 AMG"
+			},{
+			"seriesname" : "R300"
+			},{
+			"seriesname" : "R300L"
+			},{
+			"seriesname" : "R350"
+			},{
+			"seriesname" : "R350L"
+			},{
+			"seriesname" : "R500"
+			},{
+			"seriesname" : "R500L"
+			},{
+			"seriesname" : "S280"
+			},{
+			"seriesname" : "S300L"
+			},{
+			"seriesname" : "S320"
+			},{
+			"seriesname" : "S350L"
+			},{
+			"seriesname" : "S400L"
+			},{
+			"seriesname" : "S500L"
+			},{
+			"seriesname" : "S600L"
+			},{
+			"seriesname" : "S65 AMG"
+			},{
+			"seriesname" : "SL300"
+			},{
+			"seriesname" : "SL350"
+			},{
+			"seriesname" : "SL500"
+			},{
+			"seriesname" : "SL55 AMG"
+			},{
+			"seriesname" : "SL63 AMG"
+			},{
+			"seriesname" : "SLK200"
+			},{
+			"seriesname" : "SLK230"
+			},{
+			"seriesname" : "SLK280"
+			},{
+			"seriesname" : "SLK300"
+			},{
+			"seriesname" : "SLK350"
+			},{
+			"seriesname" : "SLK55 AMG"
+			},{
+			"seriesname" : "SLS AMG"
+			},{
+			"seriesname" : "V230"
+			},{
+			"seriesname" : "Viano"
+			},{
+			"seriesname" : "威霆"
+			},{
+			"seriesname" : "唯雅诺"
+			}]
+		},{
+		"brandname" : "名爵",
+		"brandpy" : "M",
+		"series" : [{
+			"seriesname" : "MG 3"
+			},{
+			"seriesname" : "MG 3SW"
+			},{
+			"seriesname" : "MG 5"
+			},{
+			"seriesname" : "MG 6"
+			},{
+			"seriesname" : "MG 7"
+			},{
+			"seriesname" : "MG 7L"
+			},{
+			"seriesname" : "MG TF"
+			}]
+		},{
+		"brandname" : "纳智捷",
+		"brandpy" : "N",
+		"series" : [{
+			"seriesname" : "大7"
+			}]
+		},{
+		"brandname" : "南京菲亚特",
+		"brandpy" : "N",
+		"series" : [{
+			"seriesname" : "派朗"
+			},{
+			"seriesname" : "派力奥"
+			},{
+			"seriesname" : "西耶那"
+			}]
+		},{
+		"brandname" : "南汽新雅途",
+		"brandpy" : "N",
+		"series" : [{
+			"seriesname" : "新雅途"
+			},{
+			"seriesname" : "优尼柯"
+			}]
+		},{
+		"brandname" : "南亚",
+		"brandpy" : "N",
+		"series" : [{
+			"seriesname" : "君达"
+			},{
+			"seriesname" : "英格尔"
+			}]
+		},{
+		"brandname" : "讴歌",
+		"brandpy" : "9",
+		"series" : [{
+			"seriesname" : "ILX"
+			},{
+			"seriesname" : "MDX"
+			},{
+			"seriesname" : "RDX"
+			},{
+			"seriesname" : "RL"
+			},{
+			"seriesname" : "TL"
+			},{
+			"seriesname" : "ZDX"
+			}]
+		},{
+		"brandname" : "欧宝",
+		"brandpy" : "O",
+		"series" : [{
+			"seriesname" : "安德拉"
+			},{
+			"seriesname" : "欧捷利"
+			},{
+			"seriesname" : "欧美佳"
+			},{
+			"seriesname" : "赛飞利"
+			},{
+			"seriesname" : "威达"
+			},{
+			"seriesname" : "雅特"
+			}]
+		},{
+		"brandname" : "奇瑞",
+		"brandpy" : "Q",
+		"series" : [{
+			"seriesname" : "A1"
+			},{
+			"seriesname" : "A3"
+			},{
+			"seriesname" : "A5"
+			},{
+			"seriesname" : "E5"
+			},{
+			"seriesname" : "QQ"
+			},{
+			"seriesname" : "QQ3"
+			},{
+			"seriesname" : "QQ6"
+			},{
+			"seriesname" : "QQme"
+			},{
+			"seriesname" : "V5"
+			},{
+			"seriesname" : "东方之子"
+			},{
+			"seriesname" : "东方之子Cross"
+			},{
+			"seriesname" : "风云"
+			},{
+			"seriesname" : "风云2"
+			},{
+			"seriesname" : "开瑞3"
+			},{
+			"seriesname" : "旗云"
+			},{
+			"seriesname" : "旗云 1"
+			},{
+			"seriesname" : "旗云 2"
+			},{
+			"seriesname" : "旗云 3"
+			},{
+			"seriesname" : "旗云5"
+			},{
+			"seriesname" : "旗云之星"
+			},{
+			"seriesname" : "瑞虎"
+			},{
+			"seriesname" : "瑞虎3"
+			},{
+			"seriesname" : "瑞麒2"
+			}]
+		},{
+		"brandname" : "起亚",
+		"brandpy" : "Q",
+		"series" : [{
+			"seriesname" : "k2"
+			},{
+			"seriesname" : "K5"
+			},{
+			"seriesname" : "霸锐"
+			},{
+			"seriesname" : "福瑞迪"
+			},{
+			"seriesname" : "佳乐"
+			},{
+			"seriesname" : "嘉华"
+			},{
+			"seriesname" : "凯尊"
+			},{
+			"seriesname" : "丽欧"
+			},{
+			"seriesname" : "欧迪玛"
+			},{
+			"seriesname" : "欧菲莱斯"
+			},{
+			"seriesname" : "普莱特"
+			},{
+			"seriesname" : "千里马"
+			},{
+			"seriesname" : "锐欧"
+			},{
+			"seriesname" : "赛拉图"
+			},{
+			"seriesname" : "狮跑"
+			},{
+			"seriesname" : "苏玛"
+			},{
+			"seriesname" : "速迈"
+			},{
+			"seriesname" : "索兰托"
+			},{
+			"seriesname" : "威客"
+			},{
+			"seriesname" : "秀尔"
+			},{
+			"seriesname" : "远舰"
+			},{
+			"seriesname" : "智跑"
+			}]
+		},{
+		"brandname" : "青年莲花",
+		"brandpy" : "Q",
+		"series" : [{
+			"seriesname" : "竞速"
+			},{
+			"seriesname" : "竞悦"
+			},{
+			"seriesname" : "莲花L3"
+			}]
+		},{
+		"brandname" : "庆铃",
+		"brandpy" : "Q",
+		"series" : [{
+			"seriesname" : "竞技者"
+			},{
+			"seriesname" : "皮卡"
+			}]
+		},{
+		"brandname" : "全球鹰",
+		"brandpy" : "Q",
+		"series" : [{
+			"seriesname" : "GC7"
+			},{
+			"seriesname" : "GX2"
+			},{
+			"seriesname" : "GX7"
+			},{
+			"seriesname" : "新远景"
+			},{
+			"seriesname" : "熊猫"
+			},{
+			"seriesname" : "自由舰"
+			}]
+		},{
+		"brandname" : "日产",
+		"brandpy" : "R",
+		"series" : [{
+			"seriesname" : "350Z"
+			},{
+			"seriesname" : "D22"
+			},{
+			"seriesname" : "GT-R"
+			},{
+			"seriesname" : "NV200"
+			},{
+			"seriesname" : "风度"
+			},{
+			"seriesname" : "风雅"
+			},{
+			"seriesname" : "贵士"
+			},{
+			"seriesname" : "骏逸"
+			},{
+			"seriesname" : "凯普斯达"
+			},{
+			"seriesname" : "蓝鸟"
+			},{
+			"seriesname" : "骊威"
+			},{
+			"seriesname" : "楼兰"
+			},{
+			"seriesname" : "玛驰"
+			},{
+			"seriesname" : "帕拉丁"
+			},{
+			"seriesname" : "奇骏"
+			},{
+			"seriesname" : "骐达"
+			},{
+			"seriesname" : "天籁"
+			},{
+			"seriesname" : "途乐"
+			},{
+			"seriesname" : "西玛"
+			},{
+			"seriesname" : "逍客"
+			},{
+			"seriesname" : "轩逸"
+			},{
+			"seriesname" : "阳光"
+			},{
+			"seriesname" : "颐达"
+			}]
+		},{
+		"brandname" : "荣威",
+		"brandpy" : "R",
+		"series" : [{
+			"seriesname" : "350"
+			},{
+			"seriesname" : "550"
+			},{
+			"seriesname" : "750"
+			}]
+		},{
+		"brandname" : "瑞麒",
+		"brandpy" : "R",
+		"series" : [{
+			"seriesname" : "G5"
+			},{
+			"seriesname" : "M1"
+			},{
+			"seriesname" : "M5"
+			},{
+			"seriesname" : "X1"
+			}]
+		},{
+		"brandname" : "萨博",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "9-3"
+			},{
+			"seriesname" : "9-5"
+			}]
+		},{
+		"brandname" : "赛宝",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "赛宝"
+			}]
+		},{
+		"brandname" : "三菱",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "戈蓝"
+			},{
+			"seriesname" : "格蓝迪"
+			},{
+			"seriesname" : "劲炫"
+			},{
+			"seriesname" : "君阁"
+			},{
+			"seriesname" : "蓝瑟"
+			},{
+			"seriesname" : "蓝瑟 翼豪陆神"
+			},{
+			"seriesname" : "蓝瑟?翼神"
+			},{
+			"seriesname" : "蓝瑟EX"
+			},{
+			"seriesname" : "菱绅"
+			},{
+			"seriesname" : "欧蓝德EX"
+			},{
+			"seriesname" : "帕杰罗"
+			},{
+			"seriesname" : "帕杰罗速跑"
+			},{
+			"seriesname" : "伊柯丽斯"
+			}]
+		},{
+		"brandname" : "山东黑豹",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "黑豹轿卡"
+			}]
+		},{
+		"brandname" : "上汽赛宝",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "赛宝"
+			}]
+		},{
+		"brandname" : "双环",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "SCEO"
+			},{
+			"seriesname" : "S-RV"
+			},{
+			"seriesname" : "来宝"
+			},{
+			"seriesname" : "来旺"
+			}]
+		},{
+		"brandname" : "双环红星",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "小贵族"
+			}]
+		},{
+		"brandname" : "双龙",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "爱腾"
+			},{
+			"seriesname" : "雷斯特"
+			},{
+			"seriesname" : "路帝"
+			},{
+			"seriesname" : "享御"
+			}]
+		},{
+		"brandname" : "思铭",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "思铭"
+			}]
+		},{
+		"brandname" : "斯巴鲁",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "傲虎"
+			},{
+			"seriesname" : "驰鹏"
+			},{
+			"seriesname" : "力狮"
+			},{
+			"seriesname" : "森林人"
+			},{
+			"seriesname" : "翼豹"
+			}]
+		},{
+		"brandname" : "斯柯达",
+		"brandpy" : "S",
+		"series" : [{
+			"seriesname" : "法比亚"
+			},{
+			"seriesname" : "昊锐"
+			},{
+			"seriesname" : "晶锐"
+			},{
+			"seriesname" : "明锐"
+			},{
+			"seriesname" : "欧雅"
+			},{
+			"seriesname" : "速派"
+			}]
+		},{
+		"brandname" : "天津一汽",
+		"brandpy" : "T",
+		"series" : [{
+			"seriesname" : "威乐"
+			},{
+			"seriesname" : "威志"
+			},{
+			"seriesname" : "威志V2"
+			},{
+			"seriesname" : "威姿"
+			},{
+			"seriesname" : "夏利"
+			},{
+			"seriesname" : "夏利2000(世纪广场)"
+			},{
+			"seriesname" : "夏利N3"
+			},{
+			"seriesname" : "夏利N3+"
+			},{
+			"seriesname" : "夏利N5"
+			},{
+			"seriesname" : "雅酷"
+			}]
+		},{
+		"brandname" : "天马",
+		"brandpy" : "T",
+		"series" : [{
+			"seriesname" : "风驰"
+			},{
+			"seriesname" : "风铃"
+			},{
+			"seriesname" : "风锐"
+			},{
+			"seriesname" : "风翼"
+			},{
+			"seriesname" : "海狮"
+			},{
+			"seriesname" : "骏驰"
+			},{
+			"seriesname" : "英雄"
+			}]
+		},{
+		"brandname" : "天汽美亚",
+		"brandpy" : "T",
+		"series" : [{
+			"seriesname" : "富旺"
+			},{
+			"seriesname" : "顺风"
+			}]
+		},{
+		"brandname" : "通田",
+		"brandpy" : "T",
+		"series" : [{
+			"seriesname" : "阁萝"
+			},{
+			"seriesname" : "美鹿"
+			}]
+		},{
+		"brandname" : "万丰",
+		"brandpy" : "W",
+		"series" : [{
+			"seriesname" : "多功能商务车"
+			},{
+			"seriesname" : "速威"
+			},{
+			"seriesname" : "泰威"
+			}]
+		},{
+		"brandname" : "威麟",
+		"brandpy" : "W",
+		"series" : [{
+			"seriesname" : "H3"
+			},{
+			"seriesname" : "H5"
+			},{
+			"seriesname" : "V5"
+			},{
+			"seriesname" : "X5"
+			}]
+		},{
+		"brandname" : "沃尔沃",
+		"brandpy" : "W",
+		"series" : [{
+			"seriesname" : "C30"
+			},{
+			"seriesname" : "C70"
+			},{
+			"seriesname" : "S40"
+			},{
+			"seriesname" : "S60"
+			},{
+			"seriesname" : "S80"
+			},{
+			"seriesname" : "S80L"
+			},{
+			"seriesname" : "XC60"
+			},{
+			"seriesname" : "XC90"
+			}]
+		},{
+		"brandname" : "五菱",
+		"brandpy" : "W",
+		"series" : [{
+			"seriesname" : "宏光"
+			},{
+			"seriesname" : "鸿途"
+			},{
+			"seriesname" : "五菱扬光"
+			},{
+			"seriesname" : "五菱之光"
+			}]
+		},{
+		"brandname" : "五十铃",
+		"brandpy" : "W",
+		"series" : [{
+			"seriesname" : "多功能越野车"
+			},{
+			"seriesname" : "竞技者"
+			},{
+			"seriesname" : "卡车"
+			},{
+			"seriesname" : "皮卡"
+			}]
+		},{
+		"brandname" : "厦门金旅",
+		"brandpy" : "X",
+		"series" : [{
+			"seriesname" : "XML6483E-G"
+			},{
+			"seriesname" : "XML6483E-R"
+			},{
+			"seriesname" : "XML6483E-Y"
+			},{
+			"seriesname" : "海狮"
+			},{
+			"seriesname" : "特种车辆系列"
+			}]
+		},{
+		"brandname" : "现代",
+		"brandpy" : "X",
+		"series" : [{
+			"seriesname" : "Elantra悦动"
+			},{
+			"seriesname" : "i30"
+			},{
+			"seriesname" : "ix35"
+			},{
+			"seriesname" : "Sonata领翔"
+			},{
+			"seriesname" : "Sonata御翔"
+			},{
+			"seriesname" : "得利"
+			},{
+			"seriesname" : "飞思"
+			},{
+			"seriesname" : "辉翼"
+			},{
+			"seriesname" : "君爵"
+			},{
+			"seriesname" : "酷派"
+			},{
+			"seriesname" : "朗动"
+			},{
+			"seriesname" : "劳恩斯"
+			},{
+			"seriesname" : "劳恩斯 酷派"
+			},{
+			"seriesname" : "美佳"
+			},{
+			"seriesname" : "名驭"
+			},{
+			"seriesname" : "瑞风"
+			},{
+			"seriesname" : "瑞纳"
+			},{
+			"seriesname" : "胜达"
+			},{
+			"seriesname" : "世纪"
+			},{
+			"seriesname" : "索纳塔"
+			},{
+			"seriesname" : "特杰"
+			},{
+			"seriesname" : "途胜"
+			},{
+			"seriesname" : "维拉克斯"
+			},{
+			"seriesname" : "新胜达"
+			},{
+			"seriesname" : "雅科仕"
+			},{
+			"seriesname" : "雅绅特"
+			},{
+			"seriesname" : "雅尊"
+			},{
+			"seriesname" : "伊兰特"
+			},{
+			"seriesname" : "御翔"
+			}]
+		},{
+		"brandname" : "新大地",
+		"brandpy" : "X",
+		"series" : [{
+			"seriesname" : "魔兽"
+			},{
+			"seriesname" : "源动力"
+			}]
+		},{
+		"brandname" : "新雅途",
+		"brandpy" : "X",
+		"series" : [{
+			"seriesname" : "君达"
+			},{
+			"seriesname" : "新雅途"
+			},{
+			"seriesname" : "优尼柯"
+			}]
+		},{
+		"brandname" : "雪佛兰",
+		"brandpy" : "X",
+		"series" : [{
+			"seriesname" : "S10"
+			},{
+			"seriesname" : "爱唯欧"
+			},{
+			"seriesname" : "景程"
+			},{
+			"seriesname" : "开拓者"
+			},{
+			"seriesname" : "科鲁兹"
+			},{
+			"seriesname" : "科迈罗"
+			},{
+			"seriesname" : "科帕奇"
+			},{
+			"seriesname" : "乐骋"
+			},{
+			"seriesname" : "乐驰"
+			},{
+			"seriesname" : "乐风"
+			},{
+			"seriesname" : "迈锐宝"
+			},{
+			"seriesname" : "斯帕可"
+			},{
+			"seriesname" : "沃蓝达"
+			},{
+			"seriesname" : "新赛欧"
+			}]
+		},{
+		"brandname" : "雪铁龙",
+		"brandpy" : "X",
+		"series" : [{
+			"seriesname" : "C2"
+			},{
+			"seriesname" : "C4"
+			},{
+			"seriesname" : "C4 Aircross"
+			},{
+			"seriesname" : "C4 L"
+			},{
+			"seriesname" : "C5"
+			},{
+			"seriesname" : "C6"
+			},{
+			"seriesname" : "DS3"
+			},{
+			"seriesname" : "DS4"
+			},{
+			"seriesname" : "DS5"
+			},{
+			"seriesname" : "爱丽舍"
+			},{
+			"seriesname" : "毕加索"
+			},{
+			"seriesname" : "大C4毕加索"
+			},{
+			"seriesname" : "富康"
+			},{
+			"seriesname" : "凯旋"
+			},{
+			"seriesname" : "赛纳"
+			},{
+			"seriesname" : "世嘉"
+			}]
+		},{
+		"brandname" : "一汽奔腾",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "奔腾B50"
+			},{
+			"seriesname" : "奔腾B70"
+			}]
+		},{
+		"brandname" : "一汽红旗",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "HQ3"
+			},{
+			"seriesname" : "红旗"
+			},{
+			"seriesname" : "明仕"
+			},{
+			"seriesname" : "旗舰"
+			},{
+			"seriesname" : "盛世"
+			},{
+			"seriesname" : "世纪星"
+			}]
+		},{
+		"brandname" : "一汽红塔",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "自由风"
+			}]
+		},{
+		"brandname" : "一汽华利",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "特锐"
+			},{
+			"seriesname" : "幸福使者"
+			}]
+		},{
+		"brandname" : "一汽吉林",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "佳宝 AV6"
+			},{
+			"seriesname" : "佳宝 V70"
+			},{
+			"seriesname" : "佳宝福星"
+			},{
+			"seriesname" : "森雅 S80"
+			},{
+			"seriesname" : "森雅M80"
+			}]
+		},{
+		"brandname" : "一汽轿车",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "奔腾B50"
+			},{
+			"seriesname" : "奔腾B70"
+			}]
+		},{
+		"brandname" : "依维柯",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "宝迪"
+			},{
+			"seriesname" : "得意"
+			},{
+			"seriesname" : "都灵V"
+			},{
+			"seriesname" : "依维柯"
+			}]
+		},{
+		"brandname" : "英菲尼迪",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "EX25"
+			},{
+			"seriesname" : "EX35"
+			},{
+			"seriesname" : "EX37"
+			},{
+			"seriesname" : "FX35"
+			},{
+			"seriesname" : "FX37"
+			},{
+			"seriesname" : "FX45"
+			},{
+			"seriesname" : "FX50"
+			},{
+			"seriesname" : "G25"
+			},{
+			"seriesname" : "G35"
+			},{
+			"seriesname" : "G37"
+			},{
+			"seriesname" : "M25"
+			},{
+			"seriesname" : "M25L"
+			},{
+			"seriesname" : "M35"
+			},{
+			"seriesname" : "M35hL"
+			},{
+			"seriesname" : "M37"
+			},{
+			"seriesname" : "QX56"
+			}]
+		},{
+		"brandname" : "英伦",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "SC3"
+			},{
+			"seriesname" : "SC5-RV"
+			},{
+			"seriesname" : "SC6"
+			},{
+			"seriesname" : "SC7"
+			},{
+			"seriesname" : "TX4"
+			},{
+			"seriesname" : "金刚"
+			},{
+			"seriesname" : "金刚2代"
+			},{
+			"seriesname" : "金鹰Cross"
+			}]
+		},{
+		"brandname" : "永源",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "A380"
+			},{
+			"seriesname" : "五星"
+			}]
+		},{
+		"brandname" : "云雀",
+		"brandpy" : "Y",
+		"series" : [{
+			"seriesname" : "云雀"
+			}]
+		},{
+		"brandname" : "中顺",
+		"brandpy" : "Z",
+		"series" : [{
+			"seriesname" : "世纪"
+			}]
+		},{
+		"brandname" : "中兴",
+		"brandpy" : "Z",
+		"series" : [{
+			"seriesname" : "长铃皮卡"
+			},{
+			"seriesname" : "驰野"
+			},{
+			"seriesname" : "福星SUV"
+			},{
+			"seriesname" : "福星皮卡"
+			},{
+			"seriesname" : "老虎"
+			},{
+			"seriesname" : "旗舰SUV"
+			},{
+			"seriesname" : "旗舰皮卡"
+			},{
+			"seriesname" : "田野SUV"
+			},{
+			"seriesname" : "田野皮卡"
+			},{
+			"seriesname" : "万禧龙"
+			},{
+			"seriesname" : "威虎"
+			},{
+			"seriesname" : "无限"
+			}]
+		},{
+		"brandname" : "众泰",
+		"brandpy" : "Z",
+		"series" : [{
+			"seriesname" : "2008"
+			},{
+			"seriesname" : "5008"
+			},{
+			"seriesname" : "朗悦"
+			}]
+		}
+	]
+}
