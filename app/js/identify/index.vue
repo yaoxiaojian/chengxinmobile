@@ -2,7 +2,7 @@
     <div>
         <Heador/>
         <cararea/>
-        <cartype/>
+        <cartype title="车型" :cname="$style.ipanel"/>
         <caryear/>
         <carkm/>
         <information/>
@@ -17,10 +17,11 @@ import Heador from "../public/header.vue"
 import footor from "../public/footer.vue"
 import Navbar from "../public/navbar.vue"
 import cararea from "../public/cararea.vue"
+import information from "../public/information.vue"
+import cartype from "../public/cartype.vue"
 import caryear from "./caryear.vue"
 import carkm from "./carkm.vue"
-import information from "../public/information.vue"
-import cartype from "./cartype.vue"
+
 
 export default {
     components: {
@@ -37,5 +38,19 @@ export default {
 </script>
 
 <style lang="scss" module>
-
+@import '../../css/element.scss';
+.ipanel{
+  >h4{
+    &:after{
+      width: 370px;
+    }
+  }
+  select{
+    width: 500px !important;
+    height: 55px !important;
+    &:nth-child(n+4){
+      display: none !important;
+    }
+  }
+}
 </style>

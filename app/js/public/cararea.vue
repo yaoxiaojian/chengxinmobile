@@ -1,10 +1,10 @@
 <template lang="html">
-    <Panel title="所在地区" class="panel">
+    <Panel title="所在地区" :class="$style.panel">
         <select class="province" name="" @change="provinceChange">
-            <option v-for="province in itemsProvince" :value="province.proid">{{ province.proName }}</option>
+            <option v-for="province in itemsProvince" :value="province.proid" :key="province.proid">{{ province.proName }}</option>
         </select>
         <select class="city" name="">
-            <option v-for="city in itemsCity" :value="city.cityid">{{ city.cityname }}</option>
+            <option v-for="city in itemsCity" :value="city.cityid" :key="city.cityid">{{ city.cityname }}</option>
         </select>
     </Panel>
 </template>
@@ -33,33 +33,31 @@ export default {
         }
     },
     mounted() {
-        console.log(provinceData.province)
         const pronvinceData = provinceData.province
-        for (let i = 0; i < pronvinceData.length; i++) {
-            this.itemsProvince.push({ proid: pronvinceData[i].proid, proName: pronvinceData[i].proname })
+        for (const value of pronvinceData) {
+            this.itemsProvince.push({ proid: value.proid, proName: value.proname })
         }
     },
     methods: {
         provinceChange(e) {
             this.selected = e.target.selectedIndex
             const cityData = provinceData.province[this.selected - 1].citys
-            console.log(cityData.length)
             this.itemsCity.splice(1, this.itemsCity.length)
-            for (let j = 0; j < cityData.length; j++) {
-                this.itemsCity.push({ cityid: cityData[j].cityid, cityname: cityData[j].cityname })
+            for (const value of cityData) {
+                this.itemsCity.push({ cityid: value.cityid, cityname: value.cityname })
             }
         },
     },
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" module>
 @import '../../css/element.scss';
 .panel{
   @include panel;
-  background: #f18101;
-  padding-top: 155px;
-  overflow: hidden;
+  background: #f18101 !important;
+  padding-top: 155px !important;
+  overflow: hidden !important;
   select{
     width: 230px;
     height: 55px;

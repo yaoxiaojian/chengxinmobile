@@ -2,7 +2,7 @@
     <div>
         <Heador/>
         <cararea/>
-        <cartype/>
+        <cartype title="现有车辆"/>
         <cardate/>
         <information/>
         <footor/>
@@ -15,9 +15,10 @@ import Heador from "../public/header.vue"
 import footor from "../public/footer.vue"
 import Navbar from "../public/navbar.vue"
 import cararea from "../public/cararea.vue"
-import cartype from "./cartype.vue"
-import cardate from "./cardate.vue"
+import cartype from "../public/cartype.vue"
 import information from "../public/information.vue"
+import cardate from "./cardate.vue"
+
 export default {
     components: {
         Heador,

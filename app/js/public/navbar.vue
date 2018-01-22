@@ -3,35 +3,35 @@
         <ul>
             <li>
                 <router-link :to="{ name: 'sale'}">
-                  <img src="//chengxinmobile.saic-gm.com/img/icon/sale.png" >
-                  <p>一键卖车</p>
+                    <img src="//chengxinmobile.saic-gm.com/img/icon/sale.png" >
+                    <p>一键卖车</p>
                 </router-link>
             </li>
             <li>
                 <router-link :to="{ name: 'displace'}">
-                  <img src="//chengxinmobile.saic-gm.com/img/icon/displace.png" >
-                  <p>一键置换</p>
+                    <img src="//chengxinmobile.saic-gm.com/img/icon/displace.png" >
+                    <p>一键置换</p>
                 </router-link>
             </li>
             <li>
-              <router-link :to="{ name: 'buy'}">
-                <img src="//chengxinmobile.saic-gm.com/img/icon/buy.png" >
-                <p>我要买车</p>
-              </router-link>
+                <router-link :to="{ name: 'buy'}">
+                    <img src="//chengxinmobile.saic-gm.com/img/icon/buy.png" >
+                    <p>我要买车</p>
+                </router-link>
             </li>
             <li>
                 <router-link :to="{ name: 'identify' }">
-                  <img src="//chengxinmobile.saic-gm.com/img/icon/check.png" >
-                  <p>车辆鉴定</p>
+                    <img src="//chengxinmobile.saic-gm.com/img/icon/check.png" >
+                    <p>车辆鉴定</p>
                 </router-link>
             </li>
-            <li>
+            <li @click="maskShow">
                 <img src="//chengxinmobile.saic-gm.com/img/icon/wechat.png" >
                 <p>官方微信</p>
             </li>
         </ul>
-        <div :class="$style.mask">
-          <img src="//chengxinmobile.saic-gm.com/img/wechat.png" alt="">
+        <div :class="$style.mask" v-show="show">
+            <img src="//chengxinmobile.saic-gm.com/img/wechat.png" alt="">
         </div>
     </Panel>
 </template>
@@ -41,6 +41,16 @@ import Panel from "../core/panel.vue"
 export default {
     components: {
         Panel,
+    },
+    data() {
+        return {
+            show: false,
+        }
+    },
+    methods: {
+        maskShow() {
+            this.show = !this.show
+        },
     },
 }
 </script>
@@ -107,7 +117,6 @@ export default {
     left: 0;
     background: rgba(0,0,0,.8);
     z-index: 1;
-    display: none;
     img{
       position: absolute;
       width: 514px;

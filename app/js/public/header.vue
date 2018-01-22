@@ -14,20 +14,28 @@
                 <li>最新活动</li>
                 <li>关于诚新二手车</li>
                 <li>
-                    <img src="//chengxinmobile.saic-gm.com/img/icon/sale.png" alt="">
-                    一键卖车
+                    <router-link :to="{ name: 'sale'}">
+                        <img src="//chengxinmobile.saic-gm.com/img/icon/sale.png" alt="">
+                        一键卖车
+                    </router-link>
                 </li>
                 <li>
+                  <router-link :to="{ name: 'displace'}">
                     <img src="//chengxinmobile.saic-gm.com/img/icon/displace.png" alt="">
                     一键置换
+                  </router-link>
                 </li>
                 <li>
+                  <router-link :to="{ name: 'buy'}">
                     <img src="//chengxinmobile.saic-gm.com/img/icon/buy.png" alt="">
                     我要买车
+                  </router-link>
                 </li>
                 <li>
+                  <router-link :to="{ name: 'identify'}">
                     <img src="//chengxinmobile.saic-gm.com/img/icon/check.png" alt="">
                     车辆鉴定
+                  </router-link>
                 </li>
                 <li>
                     <img src="//chengxinmobile.saic-gm.com/img/icon/wechat.png" alt="">
@@ -69,8 +77,11 @@ export default {
   left: 0;
   right:0;
   height: 100px;
-
   z-index: 999;
+  a{
+    text-decoration: none;
+    color:#000;
+  }
   .menucontent{
     height: 100px;
     width: 100%;
@@ -124,7 +135,6 @@ export default {
     padding-top: 100px;
     transform: translateY(-100%);
     transition:all 1s;
-
     ul{
       @include flex;
       width: 100%;
