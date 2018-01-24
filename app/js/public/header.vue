@@ -9,7 +9,11 @@
         </div>
         <div :class="[{[$style.open]:isopen},$style.menulist]">
             <ul>
-                <li>车源搜索</li>
+                <li>
+                    <router-link :to="{ name: 'search'}">
+                      车源搜索
+                    </router-link>
+                </li>
                 <li>查询经销商</li>
                 <li>最新活动</li>
                 <li>关于诚新二手车</li>
