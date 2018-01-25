@@ -8,7 +8,7 @@
             排序方式
             <span @click="timeChange">时间<em v-if="timeDown">↓</em><em v-else>↑</em></span>
             <span @click="priceChange">价格<em v-if="priceDown">↓</em><em v-else>↑</em></span>
-            <span>认证车</span>
+            <span :class="{[$style.active]:isCert}" @click="certChange">认证车</span>
         </div>
         <div :class="$style.carlist">
             <ul>
@@ -19,6 +19,7 @@
                         <p>2011款 旅行车 5</p>
                         <p>2011年上牌 / 3.8万公里</p>
                         <span>20.00万</span>
+                        <img src="//chengxinmobile.saic-gm.com/img/cars-search/icon03.png" alt="">
                     </div>
                 </li>
             </ul>
@@ -36,6 +37,7 @@ export default {
         return {
             timeDown: true,
             priceDown: true,
+            isCert: false,
         }
     },
     methods: {
@@ -44,6 +46,9 @@ export default {
         },
         priceChange() {
             this.priceDown = !this.priceDown
+        },
+        certChange() {
+            this.isCert = !this.isCert
         },
 
     },
@@ -99,10 +104,22 @@ export default {
         margin-left: 5px;
       }
     }
+    .active{
+      color: #656565;
+    }
   }
   .carlist{
-    margin-left: 70px;
     width: 500px;
+    margin: 30px 70px 60px 70px;
+    position: relative;
+    &:after{
+      content:"";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background: #ababab;
+      bottom:-30px;
+    }
     ul{
       li{
         img{
@@ -113,10 +130,35 @@ export default {
           float: right;
           width: 280px;
           height:150px;
+          position: relative;
           h4{
-            font-size: 32px;
+            font-size: 30px;
             color: #6d6d6d;
             font-weight: bold;
+            margin-top: 5px;
+          }
+          p{
+            font-size: 24px;
+            color: #6d6d6d;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space:nowrap;
+            margin-top: 8px;
+          }
+          span{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            font-size: 30px;
+            color: #f08200;
+          }
+          img{
+            width: 150px;
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
           }
         }
       }
