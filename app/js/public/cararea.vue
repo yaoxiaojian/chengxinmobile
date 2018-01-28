@@ -1,10 +1,12 @@
 <template lang="html">
     <Panel title="所在地区" :class="$style.panel">
-        <select class="province" name="" @change="provinceChange">
+        <select class="province" name="" @change="provinceChange" v-model="provinceList" >
+            <option value="">省份</option>
             <option v-for="province in itemsProvince" :value="province.proid" :key="province.proid">{{ province.proName }}</option>
         </select>
-        <select class="city" name="">
-            <option v-for="city in itemsCity" :value="city.cityid" :key="city.cityid">{{ city.cityname }}</option>
+        <select class="city" name="" v-model="cityList">
+            <option value="">城市</option>
+            <option v-for="city in itemsCity" :key="city.cityid">{{ city.cityname }}</option>
         </select>
     </Panel>
 </template>
@@ -18,18 +20,12 @@ export default {
     },
     data() {
         return {
-            itemsProvince: [
-                {
-                    proid: "",
-                    proName: "省份",
-                },
-            ],
-            itemsCity: [
-                {
-                    cityid: "",
-                    cityname: "城市",
-                },
-            ],
+            itemsProvince: [],
+            itemsCity: [],
+            provinceId: "",
+            cityId: "",
+            provinceList: "",
+            cityList: "",
         }
     },
     mounted() {
@@ -38,11 +34,27 @@ export default {
             this.itemsProvince.push({ proid: value.proid, proName: value.proname })
         }
     },
+    watch: {
+        provinceList(newprovinceId, oldprovinceId) {
+            console.log(newprovinceId)
+            if (newprovinceId != oldprovinceId) {
+                this.cityId = ""
+            }
+            this.provinceId = newprovinceId
+            this.$emit("showAreaChange", [this.provinceId, this.cityId])
+        },
+        cityList(newcityId, oldcityId) {
+            this.cityId = newcityId
+            console.log(this.cityId)
+            this.$emit("showAreaChange", [this.provinceId, this.cityId])
+        },
+
+    },
     methods: {
         provinceChange(e) {
-            this.selected = e.target.selectedIndex
-            const cityData = provinceData.province[this.selected - 1].citys
-            this.itemsCity.splice(1, this.itemsCity.length)
+            this.selectIndex = e.target.selectedIndex
+            const cityData = provinceData.province[this.selectIndex - 1].citys
+            this.itemsCity.splice(0, this.itemsCity.length)
             for (const value of cityData) {
                 this.itemsCity.push({ cityid: value.cityid, cityname: value.cityname })
             }

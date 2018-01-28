@@ -1,54 +1,155 @@
 <template lang="html">
-    <Panel :class="$style.panel">
-        <div :class="$style.carsearch">
-            <input type="text" placeholder="输入车型">
-            <button>搜索</button>
-        </div>
-        <div :class="$style.carchoose">
-            排序方式
-            <span @click="timeChange">时间<em v-if="timeDown">↓</em><em v-else>↑</em></span>
-            <span @click="priceChange">价格<em v-if="priceDown">↓</em><em v-else>↑</em></span>
-            <span :class="{[$style.active]:isCert}" @click="certChange">认证车</span>
-        </div>
-        <div :class="$style.carlist">
-            <ul>
-                <li>
-                    <img src="//chengxin.saic-gm.com/var/data/1000295247/4eaf44a630ed8c6f10fa856b56cf9b23.jpg" alt="">
-                    <div :class="$style.cartip">
-                        <h4>奥迪Q52011款</h4>
-                        <p>2011款 旅行车 5</p>
-                        <p>2011年上牌 / 3.8万公里</p>
-                        <span>20.00万</span>
-                        <img src="//chengxinmobile.saic-gm.com/img/cars-search/icon03.png" alt="">
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </Panel>
+    <div class="">
+        <cararea @showAreaChange="showAreaData"/>
+        <cartype @showWantChange="showWantCar"/>
+        <Panel :class="$style.panel">
+            <div :class="$style.carsearch">
+                <input type="text" placeholder="输入车型" v-model="keywords">
+                <button>搜索</button>
+            </div>
+            <div :class="$style.carchoose">
+                排序方式
+                <span @click="timeChange">时间<em v-if="this.timeDown">↓</em><em v-else>↑</em></span>
+                <span @click="priceChange">价格<em v-if="this.priceDown">↓</em><em v-else>↑</em></span>
+                <span :class="{[$style.active]:isauth.isactive}" @click="certChange">认证车</span>
+            </div>
+            <div :class="$style.carlist">
+                <ul>
+                    <li v-for="item in carData" :key="item.vhclId" :data-id="item.vhclId">
+                        <img :src="item.pic45" alt="">
+                        <div :class="$style.cartip">
+                            <h4>{{ item.brand }}{{ item.series }}{{ item.ModelYear }}款</h4>
+                            <p>{{ item.model }}</p>
+                            <p>{{ item.ModelYear }}年上牌 / {{ Math.ceil(item.mileage / 10000) }}万公里</p>
+                            <span>{{ item.price }}万</span>
+                            <img v-if="item.isauth==1" src="//chengxinmobile.saic-gm.com/img/cars-search/icon03.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </Panel>
+    </div>
+
 </template>
 
 <script>
+import $ from "jquery"
 import Panel from "../core/panel.vue"
+import cararea from "../public/cararea.vue"
+import cartype from "./cartype.vue"
+import Vue from "vue"
+import axios from "axios"
+import VueAxios from "vue-axios"
+
+Vue.use(VueAxios, axios)
 export default {
     components: {
         Panel,
+        cararea,
+        cartype,
     },
     data() {
         return {
+            province: "",
+            city: "",
+            brand: "",
+            series: "",
+            dealercode: "",
+            pagesize: "",
+            pagenum: "",
+            price: "",
+            carold: "",
+            carkm: "",
+            signdate: "",
+            keywords: "",
+            vtype: "",
+            seriesother: "",
+            brandother: "",
             timeDown: true,
             priceDown: true,
-            isCert: false,
+            sortby: "lastTime",
+            orderby: "asc",
+            isauth: {
+                isactive: true,
+                iscert: 0,
+            },
+            pagesize: 3,
+            pagenum: 1,
+            carData: [],
+            scroll: "",
+            wait: false,
         }
+    },
+    mounted() {
+        window.addEventListener("scroll", this.loadCars)
     },
     methods: {
         timeChange() {
+            this.carData = []
             this.timeDown = !this.timeDown
+            this.sortby = "lastTime"
+            this.orderby = this.orderby == "asc" ? "desc" : "asc"
+            this.pagenum = 1
+            this.getCarlistData()
         },
         priceChange() {
+            this.carData = []
             this.priceDown = !this.priceDown
+            this.sortby = "price"
+            this.orderby = this.orderby == "asc" ? "desc" : "asc"
+            this.pagenum = 1
+            this.getCarlistData()
         },
         certChange() {
-            this.isCert = !this.isCert
+            this.carData = []
+            this.isauth.isactive = !this.isauth.isactive
+            this.isauth.iscert = this.isauth.iscert == 0 ? 1 : 0
+            this.pagenum = 1
+            this.getCarlistData()
+        },
+        showAreaData(data) {
+            this.carData = []
+            this.province = data[0]
+            this.city = data[1]
+            this.pagenum = 1
+            this.getCarlistData()
+        },
+        showWantCar(data) {
+            this.carData = []
+            this.brand = data[0]
+            this.series = data[1]
+            this.carold = data[2]
+            this.price = data[3]
+            this.signdate = data[4]
+            this.carkm = data[5]
+            this.pagenum = 1
+            this.getCarlistData()
+        },
+        loadCars() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTo
+            const bodyHeight = document.body.offsetHeight + 150
+            const clientHeight = document.documentElement.clientHeight
+            if (bodyHeight - clientHeight <= scrollTop) {
+                this.pagenum++
+                this.getCarlistData()
+                this.wait = true
+            }
+        },
+        getCarlistData() {
+            if (this.wait) {
+                return
+            }
+            axios.get(`http://chengxinmobile.saic-gm.com/api/carlist.aspx?province=${this.province}&city=${this.city}&brand=${this.brand}&series=${this.series}&dealercode=${this.dealercode}&pagesize=${this.pagesize}&pagenum=${this.pagenum}&price=${this.price}&carold=${this.carold}&carkm=${this.carkm}&signdate=${this.signdate}&keywords=${this.keywords}&vtype=${this.vtype}&seriesother=${this.seriesother}&brandother=${this.brandother}&sortby=${this.sortby}&orderby=${this.orderby}&isauth=${this.isauth.iscert}`)
+                .then(response => {
+                    for (const value of response.data.cars) {
+                        console.log(value)
+                        this.carData.push({ vhclId: value.vhclId, brand: value.brand, series: value.series, ModelYear: value.ModelYear, model: value.model, mileage: value.mileage, pic45: value.pic45, price: value.price, isauth: value.isauth })
+                    }
+                    this.wait = false
+                })
+                .catch(response => {
+                    console.log(response)
+                })
         },
 
     },
@@ -112,16 +213,19 @@ export default {
     width: 500px;
     margin: 30px 70px 60px 70px;
     position: relative;
-    &:after{
-      content:"";
-      position: absolute;
-      width: 100%;
-      height: 1px;
-      background: #ababab;
-      bottom:-30px;
-    }
     ul{
       li{
+        margin: 0 0 60px 0;
+        position: relative;
+        &:after{
+          content:"";
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: #ababab;
+          bottom:-30px;
+          left:0;
+        }
         img{
           width: 200px;
           height:150px;
@@ -136,6 +240,9 @@ export default {
             color: #6d6d6d;
             font-weight: bold;
             margin-top: 5px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space:nowrap;
           }
           p{
             font-size: 24px;

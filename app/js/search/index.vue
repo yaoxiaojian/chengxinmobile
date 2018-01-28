@@ -1,8 +1,6 @@
 <template lang="html">
     <div>
         <Heador/>
-        <cararea/>
-        <cartype/>
         <carlist/>
         <footor/>
         <Navbar/>
@@ -13,8 +11,6 @@
 import Heador from "../public/header.vue"
 import footor from "../public/footer.vue"
 import Navbar from "../public/navbar.vue"
-import cararea from "../public/cararea.vue"
-import cartype from "./cartype.vue"
 import carlist from "./carlist.vue"
 
 export default {
@@ -22,8 +18,6 @@ export default {
         Heador,
         footor,
         Navbar,
-        cararea,
-        cartype,
         carlist,
     },
 }
