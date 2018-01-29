@@ -2,8 +2,8 @@
     <div>
         <cararea @showAreaChange="showAreaData" :class="$style.cararea">
             <div :class="$style.sinput">
-                <input type="text">
-                <button/>
+                <input type="text" placeholder="输入经销商名称" v-model="keywords">
+                <button @click="searchKeywords"/>
             </div>
         </cararea>
         <Panel title="经销商" :class="$style.panel">
@@ -34,7 +34,13 @@ export default {
     data() {
         return {
             dealerData: [],
+            province: "",
+            city: "",
+            keywords: "",
         }
+    },
+    mounted() {
+        this.getdealerData()
     },
     methods: {
         showAreaData(data) {
@@ -42,6 +48,7 @@ export default {
             this.dealerData = []
             this.province = data[0]
             this.city = data[1]
+            this.getdealerData()
         },
         getdealerData() {
             axios.get(`http://chengxinmobile.saic-gm.com/api/dealerlist.aspx?province=${this.province}&city=${this.city}&keywords=${this.keywords}`)
@@ -56,6 +63,9 @@ export default {
                     console.log(response)
                 })
         },
+        searchKeywords() {
+            this.getdealerData()
+        },
     },
 }
 </script>
@@ -66,6 +76,7 @@ export default {
   >h4{
     display: none;
   }
+  padding-bottom: 70px !important;
   .sinput{
     width: 500px;
     height: 55px;
@@ -112,35 +123,41 @@ export default {
     }
   }
   .dealerlist{
-    margin-left: 70px;
     h4{
       font-size:28px;
       color:#363636;
-      margin:38px 0;
+      margin:38px 70px;
     }
-    p{
-      margin:38px 0;
-      font-size:24px;
-      color:#363636;
-      position: relative;
-      padding-left: 30px;
-      &::before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
+    li{
+      overflow: hidden;
+      p{
+        margin:38px 70px;
+        font-size:24px !important;
+        color:#363636;
+        position: relative;
+        padding-left: 30px;
+        line-height: 28px;
+        &:before{
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        &:nth-child(2){
+          background: url("http://chengxinmobile.saic-gm.com/img/icon/phone.png") no-repeat center left;
+          background-size: auto;
+        }
+        &:nth-child(3){
+          background: url("http://chengxinmobile.saic-gm.com/img/icon/area.png") no-repeat center left;
+          background-size: auto;
+        }
+        &:nth-child(4){
+          background: url("http://chengxinmobile.saic-gm.com/img/icon/address.png") no-repeat center left;
+          background-size: auto;
+        }
       }
-      &:nth-child(2){
-        background: url(http://chengxinmobile.saic-gm.com/img/icon/phone.png) no-repeat center left;
-        background-size: auto;
-      }
-      &:nth-child(3){
-        background: url(http://chengxinmobile.saic-gm.com/img/icon/area.png) no-repeat center left;
-        background-size: auto;
-      }
-      &:nth-child(4){
-        background: url(http://chengxinmobile.saic-gm.com/img/icon/address.png) no-repeat center left;
-        background-size: auto;
+      &:nth-child(2n){
+        background: #fff;
       }
     }
   }

@@ -5,7 +5,7 @@
         <Panel :class="$style.panel">
             <div :class="$style.carsearch">
                 <input type="text" placeholder="输入车型" v-model="keywords">
-                <button>搜索</button>
+                <button @click="searchKeywords">搜索</button>
             </div>
             <div :class="$style.carchoose">
                 排序方式
@@ -81,6 +81,7 @@ export default {
     },
     mounted() {
         window.addEventListener("scroll", this.loadCars)
+        this.getCarlistData()
     },
     methods: {
         timeChange() {
@@ -126,13 +127,16 @@ export default {
         },
         loadCars() {
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTo
-            const bodyHeight = document.body.offsetHeight + 150
+            const bodyHeight = document.body.offsetHeight - 50
             const clientHeight = document.documentElement.clientHeight
             if (bodyHeight - clientHeight <= scrollTop) {
                 this.pagenum++
                 this.getCarlistData()
                 this.wait = true
             }
+        },
+        searchKeywords() {
+            this.getCarlistData()
         },
         getCarlistData() {
             if (this.wait) {

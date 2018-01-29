@@ -18,7 +18,7 @@
   @include flex($direction);
 }
 
-@mixin panel($fontsize:28px,$color:#fff,$bgcolor:#e5e5e5,$padding:0,$margin:0,$linewidth:320px,$iconcolor:#fff) {
+@mixin panel($fontsize:28px,$color:#fff,$bgcolor:#e5e5e5,$padding:0 0 4px 0,$margin:0,$linewidth:320px,$iconcolor:#fff) {
   background: $bgcolor;
   padding: $padding;
   margin: $margin;
@@ -46,5 +46,8 @@
       right:70px;
       height: 1px;
     }
+  }
+  select{
+    background: #fff;
   }
 }

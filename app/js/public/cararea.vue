@@ -76,7 +76,7 @@ export default {
     border: #656565 1px solid;
     color:#f18101;
     font-size: 26px;
-    margin-top: 30px;
+    margin: 30px 0 0 0;
     &.province{
       margin-left: 70px;
     }

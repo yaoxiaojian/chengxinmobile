@@ -120,6 +120,7 @@ export default {
         font-size: 20px;
         padding-left: 10px;
         display: block;
+        border-radius: none;
       }
       button{
         position: absolute;
