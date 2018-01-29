@@ -9,8 +9,8 @@
             </div>
             <div :class="$style.carchoose">
                 排序方式
-                <span @click="timeChange">时间<em v-if="this.timeDown">↓</em><em v-else>↑</em></span>
-                <span @click="priceChange">价格<em v-if="this.priceDown">↓</em><em v-else>↑</em></span>
+                <span @click="timeChange">时间<em v-if="timeDown">↓</em><em v-else>↑</em></span>
+                <span @click="priceChange">价格<em v-if="priceDown">↓</em><em v-else>↑</em></span>
                 <span :class="{[$style.active]:isauth.isactive}" @click="certChange">认证车</span>
             </div>
             <div :class="$style.carlist">
@@ -33,7 +33,6 @@
 </template>
 
 <script>
-import $ from "jquery"
 import Panel from "../core/panel.vue"
 import cararea from "../public/cararea.vue"
 import cartype from "./cartype.vue"
@@ -88,7 +87,7 @@ export default {
             this.carData = []
             this.timeDown = !this.timeDown
             this.sortby = "lastTime"
-            this.orderby = this.orderby == "asc" ? "desc" : "asc"
+            this.orderby = this.orderby === "asc" ? "desc" : "asc"
             this.pagenum = 1
             this.getCarlistData()
         },
@@ -96,14 +95,14 @@ export default {
             this.carData = []
             this.priceDown = !this.priceDown
             this.sortby = "price"
-            this.orderby = this.orderby == "asc" ? "desc" : "asc"
+            this.orderby = this.orderby === "asc" ? "desc" : "asc"
             this.pagenum = 1
             this.getCarlistData()
         },
         certChange() {
             this.carData = []
             this.isauth.isactive = !this.isauth.isactive
-            this.isauth.iscert = this.isauth.iscert == 0 ? 1 : 0
+            this.isauth.iscert = this.isauth.iscert === 0 ? 1 : 0
             this.pagenum = 1
             this.getCarlistData()
         },

@@ -1,10 +1,11 @@
 <template lang="html">
     <Panel title="所在地区" :class="$style.panel">
-        <select class="province" name="" @change="provinceChange" v-model="provinceList" >
+        <slot/>
+        <select :class="$style.province" name="" @change="provinceChange" v-model="provinceList" >
             <option value="">省份</option>
             <option v-for="province in itemsProvince" :value="province.proid" :key="province.proid">{{ province.proName }}</option>
         </select>
-        <select class="city" name="" v-model="cityList">
+        <select :class="$style.city" name="" v-model="cityList">
             <option value="">城市</option>
             <option v-for="city in itemsCity" :key="city.cityid">{{ city.cityname }}</option>
         </select>
@@ -28,15 +29,8 @@ export default {
             cityList: "",
         }
     },
-    mounted() {
-        const pronvinceData = provinceData.province
-        for (const value of pronvinceData) {
-            this.itemsProvince.push({ proid: value.proid, proName: value.proname })
-        }
-    },
     watch: {
         provinceList(newprovinceId, oldprovinceId) {
-            console.log(newprovinceId)
             if (newprovinceId != oldprovinceId) {
                 this.cityId = ""
             }
@@ -45,10 +39,15 @@ export default {
         },
         cityList(newcityId, oldcityId) {
             this.cityId = newcityId
-            console.log(this.cityId)
             this.$emit("showAreaChange", [this.provinceId, this.cityId])
         },
 
+    },
+    mounted() {
+        const pronvinceData = provinceData.province
+        for (const value of pronvinceData) {
+            this.itemsProvince.push({ proid: value.proid, proName: value.proname })
+        }
     },
     methods: {
         provinceChange(e) {
@@ -78,10 +77,10 @@ export default {
     color:#f18101;
     font-size: 26px;
     margin-top: 30px;
-    &:nth-child(2){
+    &.province{
       margin-left: 70px;
     }
-    &:last-child{
+    &.city{
       float: right;
       margin-right: 70px;
     }

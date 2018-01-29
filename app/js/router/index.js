@@ -8,6 +8,7 @@ import Displace from "../displace/index.vue"
 import Buy from "../buy/index.vue"
 import Identify from "../identify/index.vue"
 import Search from "../search/index.vue"
+import Dealer from "../dealer/index.vue"
 import "../../css/reset.scss"
 
 Vue.use(Router)
@@ -43,6 +44,10 @@ export default new Router({
             path: "/search",
             name: "search",
             component: Search,
+        }, {
+            path: "/dealer",
+            name: "dealer",
+            component: Dealer,
         },
 
     ],

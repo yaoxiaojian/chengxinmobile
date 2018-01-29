@@ -14,7 +14,11 @@
                       车源搜索
                     </router-link>
                 </li>
-                <li>查询经销商</li>
+                <li>
+                    <router-link :to="{ name: 'dealer'}">
+                      查询经销商
+                    </router-link>
+                </li>
                 <li>最新活动</li>
                 <li>关于诚新二手车</li>
                 <li>
