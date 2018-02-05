@@ -16,6 +16,7 @@
             <div :class="$style.carlist">
                 <ul>
                     <li v-for="item in carData" :key="item.vhclId" :data-id="item.vhclId">
+                      <router-link :to="{ name: 'information'}">
                         <img :src="item.pic45" alt="">
                         <div :class="$style.cartip">
                             <h4>{{ item.brand }}{{ item.series }}{{ item.ModelYear }}款</h4>
@@ -24,6 +25,7 @@
                             <span>{{ item.price }}万</span>
                             <img v-if="item.isauth==1" src="//chengxinmobile.saic-gm.com/img/cars-search/icon03.png" alt="">
                         </div>
+                      </router-link>
                     </li>
                 </ul>
             </div>
@@ -74,7 +76,7 @@ export default {
             },
             pagesize: 3,
             pagenum: 1,
-            carData: [],
+            carData: [{}],
             scroll: "",
             wait: false,
         }

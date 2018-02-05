@@ -9,12 +9,13 @@ import Buy from "../buy/index.vue"
 import Identify from "../identify/index.vue"
 import Search from "../search/index.vue"
 import Dealer from "../dealer/index.vue"
+import Information from "../information/index.vue"
 import "../../css/reset.scss"
 
 Vue.use(Router)
 
 export default new Router({
-    mode: "history",
+    // mode: "history",
     routes: [
         {
             path: "/",
@@ -49,6 +50,10 @@ export default new Router({
             path: "/dealer",
             name: "dealer",
             component: Dealer,
+        }, {
+            path: "/information",
+            name: "information",
+            component: Information,
         },
 
     ],
