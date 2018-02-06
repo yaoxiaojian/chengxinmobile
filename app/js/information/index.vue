@@ -3,7 +3,7 @@
         <Heador/>
         <Slider :items="items" :cname="$style.slider"/>
         <Panel :class="$style.panel" :cname="$style.price">
-            <h5>别克凯越 2011款</h5>
+            <h5>别克凯越 2011款{{ this.$route.params.carid }}</h5>
             <section>
                 <span>市场<br >参考价</span>
                 5.40万
@@ -75,6 +75,9 @@ import footor from "../public/footer.vue"
 import Navbar from "../public/navbar.vue"
 import Slider from "../core/slider.vue"
 import Panel from "../core/panel.vue"
+import Vue from "vue"
+import axios from "axios"
+import VueAxios from "vue-axios"
 
 export default {
     components: {
@@ -100,11 +103,19 @@ export default {
                 href: "//chengxinmobile.saic-gm.com/h5/2017xz/3",
             }],
             selected: null,
+            carid: "",
         }
+    },
+    mounted() {
+        this.carid = this.$route.params.carid
     },
     methods: {
         choose(index) {
             this.selected = index
+        },
+        getcardetail() {
+            axios.get(`http://chengxinmobile.saic-gm.com/api/cardetail.aspx?ids=${this.carid}`)
+                .then()
         },
     },
 }
