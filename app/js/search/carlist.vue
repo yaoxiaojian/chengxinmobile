@@ -16,7 +16,7 @@
             <div :class="$style.carlist">
                 <ul>
                     <li v-for="item in carData" :key="item.vhclId" :data-id="item.vhclId">
-                        <router-link :to="{ name: 'information', params: { carid : item.vhclId }}">
+                        <router-link :to="{ path: 'information', query: { carid : item.vhclId }}">
                             <img :src="item.pic45" alt="">
                             <div :class="$style.cartip">
                                 <h4>{{ item.brand }}{{ item.series }}{{ item.ModelYear }}款</h4>

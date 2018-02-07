@@ -96,8 +96,8 @@ export default {
         }
     },
     mounted() {
-        this.carid = this.$route.params.carid
-        console.log(this.$route.params.carid)
+        this.carid = this.$route.query.carid
+        console.log(this.$route.query.carid)
         this.getcardetail(this.carid)
     },
     methods: {
