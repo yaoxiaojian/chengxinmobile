@@ -2,68 +2,68 @@
     <div>
         <Heador/>
         <Slider :items="items" :cname="$style.slider"/>
-        <Panel :class="$style.panel" :cname="$style.price">
-            <h5>别克凯越 2011款{{ this.$route.params.carid }}</h5>
-            <section>
-                <span>市场<br >参考价</span>
-                5.40万
-                <img src="http://chengxinmobile.saic-gm.com/img/cars-search/icon03.png" alt="">
-                <p>苏州建通汽车销售服务有限公司</p>
-                <a href="tel:"><img src="http://chengxinmobile.saic-gm.com/img/cars-search/icon02.jpg"></a>
-            </section>
-        </Panel>
-        <Panel title="车辆概述" :cname="$style.massege">
-            <ul>
-                <li>所在地:苏州市</li>
-                <li>编号:1000143348</li>
-                <li>上牌日期:2011年08月16日</li>
-                <li>行驶里程:9.9万公里</li>
-                <li>发布日期:</li>
-                <li>车辆颜色:银色</li>
-                <li>联系人:赵建农</li>
-                <li>排气量:1.6</li>
-            </ul>
-        </Panel>
-        <Panel title="车主自述" :cname="$style.introduce">
-            <p>2011款 三厢轿车 4门 LX 自动 4速 前轮驱动 1.6多点式喷射</p>
-
-        </Panel>
-        <Panel title="贷款套餐" :cname="$style.loan">
-            <table cellpadding="0" cellspacing="0">
-                <tr>
-                    <td width="25%">首付比例</td>
-                    <td width="25%">贷款金额</td>
-                    <td width="25%">月供</td>
-                    <td width="25%">贷款期数</td>
-                </tr>
-                <tr :class="{ [$style.active]: 1 === selected }" @click="choose(1)">
-                    <td>30%</td>
-                    <td>61650元</td>
-                    <td><span>85</span>元</td>
-                    <td><span>18</span>个月</td>
-                </tr>
-                <tr :class="{ [$style.active]: 2 === selected }" @click="choose(2)">
-                    <td>30%</td>
-                    <td>61650元</td>
-                    <td><span>85</span>元</td>
-                    <td><span>24</span>个月</td>
-                </tr>
-                <tr :class="{ [$style.active]: 3 === selected }" @click="choose(3)">
-                    <td>30%</td>
-                    <td>61650元</td>
-                    <td><span>85</span>元</td>
-                    <td><span>30</span>个月</td>
-                </tr>
-                <tr :class="{ [$style.active]: 4 === selected }" @click="choose(4)">
-                    <td>30%</td>
-                    <td>61650元</td>
-                    <td><span>85</span>元</td>
-                    <td><span>36</span>个月</td>
-                </tr>
-            </table>
-
-
-        </Panel>
+        <div class="cardata" v-for="item in carsItem" :key="item.vhclId">
+            <Panel :class="$style.panel" :cname="$style.price">
+                <h5>{{ item.brand }}{{ item.series }}{{ item.ModelYear }}款</h5>
+                <section>
+                    <span>市场<br >参考价</span>
+                    {{ item.price }}万
+                    <img v-if="item.status === 1" src="http://chengxinmobile.saic-gm.com/img/cars-search/icon03.png" alt="">
+                    <p>{{ item.VendorFullName }}</p>
+                    <a :href="'tel:' + item.Linkphone"><img src="http://chengxinmobile.saic-gm.com/img/cars-search/icon02.jpg"></a>
+                </section>
+            </Panel>
+            <Panel title="车辆概述" :cname="$style.massege">
+                <ul>
+                    <li>所在地:{{ item.vehicleCity }}</li>
+                    <li>编号:{{ item.vhclId }}</li>
+                    <li>上牌日期:{{ item.signDate }}</li>
+                    <li>行驶里程:{{ Math.ceil(item.mileage / 10000) }}万公里</li>
+                    <li>发布日期:{{ item.insureDate }}</li>
+                    <li>车辆颜色:{{ item.color }}</li>
+                    <li>联系人:{{ item.Linkman }}</li>
+                    <li>排气量:{{ item.dspm }}</li>
+                </ul>
+            </Panel>
+            <Panel title="车主自述" :cname="$style.introduce">
+                <p>{{ item.model }}</p>
+            </Panel>
+            <Panel title="贷款套餐" :cname="$style.loan">
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="25%">首付比例</td>
+                        <td width="25%">贷款金额</td>
+                        <td width="25%">月供</td>
+                        <td width="25%">贷款期数</td>
+                    </tr>
+                    <tr :class="{ [$style.active]: 1 === selected }" @click="choose(1)">
+                        <td>30%</td>
+                        <td>{{ (item.price * 0.3).toFixed(2) }}元</td>
+                        <td>{{ Math.ceil((item.price * 0.3).toFixed(2)*(0.149/12)*Math.pow(1+0.149/12,18)/(Math.pow(1+0.149/12,18)-1)*1000 ) }}元</td>
+                        <td><span>18</span>个月</td>
+                    </tr>
+                    <tr :class="{ [$style.active]: 2 === selected }" @click="choose(2)">
+                        <td>30%</td>
+                        <td>{{ (item.price * 0.3).toFixed(2) }}元</td>
+                        <td>{{ Math.ceil((item.price * 0.3).toFixed(2)*(0.149/12)*Math.pow(1+0.149/12,24)/(Math.pow(1+0.149/12,24)-1)*1000 ) }}元</td>
+                        <td><span>24</span>个月</td>
+                    </tr>
+                    <tr :class="{ [$style.active]: 3 === selected }" @click="choose(3)">
+                        <td>30%</td>
+                        <td>{{ (item.price * 0.3).toFixed(2) }}元</td>
+                        <td>{{ Math.ceil((item.price * 0.3).toFixed(2)*(0.149/12)*Math.pow(1+0.149/12,30)/(Math.pow(1+0.149/12,30)-1)*1000 ) }}元</td>
+                        <td><span>30</span>个月</td>
+                    </tr>
+                    <tr :class="{ [$style.active]: 4 === selected }" @click="choose(4)">
+                        <td>30%</td>
+                        <td>{{ (item.price * 0.3).toFixed(2) }}元</td>
+                        <td>{{ Math.ceil((item.price * 0.3).toFixed(2)*(0.149/12)*Math.pow(1+0.149/12,36)/(Math.pow(1+0.149/12,36)-1)*1000 ) }}元</td>
+                        <td><span>36</span>个月</td>
+                    </tr>
+                </table>
+                <p>更多贷款方案，请致电<a href="tel:400-920-3535">400-920-3535</a>咨询。</p>
+            </Panel>
+        </div>
         <footor/>
         <Navbar/>
     </div>
@@ -89,25 +89,16 @@ export default {
     },
     data() {
         return {
-            items: [{
-                src: "//chengxinmobile.saic-gm.com/img/kv/kv6.jpg",
-                href: "//chengxinmobile.saic-gm.com/h5/2017xz/",
-            }, {
-                src: "//chengxinmobile.saic-gm.com/img/kv/kv2.jpg",
-                href: "//chengxinmobile.saic-gm.com/h5/2017xz/1",
-            }, {
-                src: "//chengxinmobile.saic-gm.com/img/kv/kv3.jpg",
-                href: "//chengxinmobile.saic-gm.com/h5/2017xz/2",
-            }, {
-                src: "//chengxinmobile.saic-gm.com/img/kv/kv4.jpg",
-                href: "//chengxinmobile.saic-gm.com/h5/2017xz/3",
-            }],
+            items: [],
             selected: null,
             carid: "",
+            carsItem: [],
         }
     },
     mounted() {
         this.carid = this.$route.params.carid
+        console.log(this.$route.params.carid)
+        this.getcardetail(this.carid)
     },
     methods: {
         choose(index) {
@@ -115,7 +106,16 @@ export default {
         },
         getcardetail() {
             axios.get(`http://chengxinmobile.saic-gm.com/api/cardetail.aspx?ids=${this.carid}`)
-                .then()
+                .then(response => {
+                    for (const value of response.data.cars) {
+                        console.log(value)
+                        this.carsItem.push({ brand: value.brand, series: value.series, price: value.price, VendorFullName: value.dealer.VendorFullName, Linkman: value.dealer.Linkman, Linkphone: value.dealer.Linkphone, vhclId: value.vhclId, signDate: value.signDate, dspm: value.dspm, mileage: value.mileage, status: value.status, color: value.color, vehiclePackage: value.vehiclePackage, ModelYear: value.redbookCode.ModelYear, model: value.model, vehicleCity: value.vehicleCity, insureDate: value.insureDate })
+                        this.items.push({ src: value.left45 }, { src: value.right45 }, { src: value.engine }, { src: value.front }, { src: value.behind }, { src: value.side })
+                    }
+                })
+                .catch(response => {
+                    console.log(response)
+                })
         },
     },
 }
@@ -135,7 +135,7 @@ body,.panel,section{
   }
 }
 .price{
-  margin: 80px 65px 0 65px;
+  margin: 80px 65px 0 65px !important;
   >h4{
     display: none;
   }
@@ -268,6 +268,10 @@ body,.panel,section{
       }
     }
   }
-
+  p{
+    font-size: 24px;
+    color: #363636;
+    margin: 20px 65px 0 65px;
+  }
 }
 </style>

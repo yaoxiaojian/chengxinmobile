@@ -16,16 +16,16 @@
             <div :class="$style.carlist">
                 <ul>
                     <li v-for="item in carData" :key="item.vhclId" :data-id="item.vhclId">
-                      <router-link :to="{ name: 'information', params: { carid : 123 }}">
-                        <img :src="item.pic45" alt="">
-                        <div :class="$style.cartip">
-                            <h4>{{ item.brand }}{{ item.series }}{{ item.ModelYear }}款</h4>
-                            <p>{{ item.model }}</p>
-                            <p>{{ item.ModelYear }}年上牌 / {{ Math.ceil(item.mileage / 10000) }}万公里</p>
-                            <span>{{ item.price }}万</span>
-                            <img v-if="item.isauth==1" src="//chengxinmobile.saic-gm.com/img/cars-search/icon03.png" alt="">
-                        </div>
-                      </router-link>
+                        <router-link :to="{ name: 'information', params: { carid : item.vhclId }}">
+                            <img :src="item.pic45" alt="">
+                            <div :class="$style.cartip">
+                                <h4>{{ item.brand }}{{ item.series }}{{ item.ModelYear }}款</h4>
+                                <p>{{ item.model }}</p>
+                                <p>{{ item.ModelYear }}年上牌 / {{ Math.ceil(item.mileage / 10000) }}万公里</p>
+                                <span>{{ item.price }}万</span>
+                                <img v-if="item.isauth==1" src="//chengxinmobile.saic-gm.com/img/cars-search/icon03.png" alt="">
+                            </div>
+                        </router-link>
                     </li>
                 </ul>
             </div>
@@ -76,8 +76,9 @@ export default {
             },
             pagesize: 3,
             pagenum: 1,
-            carData: [{}],
+            carData: [],
             scroll: "",
+            vhclId: "",
             wait: false,
         }
     },
