@@ -10,6 +10,8 @@ import Identify from "../identify/index.vue"
 import Search from "../search/index.vue"
 import Dealer from "../dealer/index.vue"
 import Information from "../information/index.vue"
+import Recommend from "../activity/recommend.vue"
+import Loan from "../activity/loan.vue"
 import "../../css/reset.scss"
 
 Vue.use(Router)
@@ -54,6 +56,14 @@ export default new Router({
             path: "/information",
             name: "information",
             component: Information,
+        }, {
+            path: "/recommend",
+            name: "recommend",
+            component: Recommend,
+        }, {
+            path: "/loan",
+            name: "loan",
+            component: Loan,
         },
 
     ],

@@ -2,7 +2,7 @@
     <Panel title="超值推荐" :class="$style.panel">
         <section :class="$style.content">
             <div :class="$style.item">
-                <router-link :to="{ name: 'home'}">
+                <router-link :to="{ name: 'recommend'}">
                     <img src="//chengxinmobile.saic-gm.com/img/kv/active1.jpg" alt="">
                 </router-link>
             </div>
